@@ -150,7 +150,7 @@ git push
 
 ## ✅ Completion Checklist
 
-- [✅] JDK installed
+- [x] JDK installed
 - [x] IntelliJ IDEA configured
 - [x] Git configured
 - [x] GitHub connected
