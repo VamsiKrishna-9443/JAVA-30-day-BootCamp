@@ -1,46 +1,60 @@
-Day 01 — Java Setup and Basics
-Objective
-Set up the Java development environment and learn the basic building blocks of Java programming, including JVM, JDK, JRE, class structure, variables, data types, methods, and conditional statements.
+# Day 01 — Java Setup & Basics
 
-Environment Setup
+**Repository:** JAVA-30-day-BootCamp  
+**Status:** ✅ Completed
 
-JDK: Installed successfully
-IDE: IntelliJ IDEA Community Edition
-Version Control: Git configured
-GitHub Repository: JAVA-30-day-BootCamp
+---
 
+## 📌 Objective
 
-Concepts Learned
-JDK, JRE, JVM
+Set up the Java development environment and build a working understanding of core Java fundamentals — JVM, JDK, JRE, class structure, variables, data types, and conditional logic.
 
-JDK (Java Development Kit): Used to develop and compile Java programs.
-JRE (Java Runtime Environment): Used to run Java applications.
-JVM (Java Virtual Machine): Executes Java bytecode and provides platform independence.
+---
 
-Java Basics
+## 🛠️ Environment Setup
 
-Class and object structure
-main() method
-Variables and data types
-Taking user input using Scanner
-Conditional statements (if, if-else, else-if)
+| Tool | Status |
+|---|---|
+| JDK | ✅ Installed |
+| IntelliJ IDEA | ✅ Configured |
+| Git | ✅ Configured |
+| GitHub Repository | ✅ Connected |
 
+---
 
-Programs Implemented
-1. HelloWorld.java
-Prints a simple greeting message.
-2. SUM.java
-Calculates the sum of two numbers entered by the user.
-3. SwapUsingTemp.java
-Swaps two numbers using a temporary variable.
-4. SwapWithoutTemp.java
-Swaps two numbers without using a temporary variable.
-5. EvenOrOdd.java
-Checks whether a number is even or odd using conditional logic.
-6. LargestAmongThree.java
-Finds the largest number among three user-provided numbers.
+## 📚 Concepts Covered
 
-Project Structure
+### JDK, JRE, JVM
+
+- **JDK (Java Development Kit)** — Toolset for writing and compiling Java programs.
+- **JRE (Java Runtime Environment)** — Provides the libraries and environment needed to run Java applications.
+- **JVM (Java Virtual Machine)** — Executes compiled bytecode and enables Java's platform independence.
+
+### Java Basics
+
+- Class structure and the `main()` method
+- Variables and data types
+- Reading user input with `Scanner`
+- Conditional statements: `if`, `if-else`, `else-if`
+
+---
+
+## 💻 Programs Implemented
+
+| Program | Description |
+|---|---|
+| `HelloWorld.java` | Prints a greeting message |
+| `SUM.java` | Calculates the sum of two numbers |
+| `SwapUsingTemp.java` | Swaps two numbers using a temporary variable |
+| `SwapWithoutTemp.java` | Swaps two numbers without a temporary variable |
+| `EvenOrOdd.java` | Checks whether a number is even or odd |
+| `LargestAmongThree.java` | Finds the largest among three numbers |
+
+---
+
+## 📂 Project Structure
+
+```
 day-01/
 ├── README.md
 ├── src/
@@ -57,63 +71,102 @@ day-01/
     ├── swap-no-temp-output.png
     ├── even-odd-output.png
     └── largest-three-output.png
+```
 
+---
 
-Verification
-All programs were compiled and executed successfully in IntelliJ IDEA. Output screenshots were captured and stored in the test-output/ folder.
+## 🧪 Verification
 
-Problems Faced
+All programs were:
 
-Git remote connection setup
-Correct usage of git branch -M main
-Importing Scanner for user input programs
+- ✅ Compiled successfully in IntelliJ IDEA
+- ✅ Executed without runtime errors
+- ✅ Captured as output screenshots stored in `test-output/`
 
+---
 
-Solutions Applied
+## ⚠️ Issues Encountered & Fixes
 
-Configured GitHub remote correctly
-Renamed the branch using the proper Git command
-Added import java.util.Scanner; where required
+**1. Git remote configuration**  
+Used an incorrect placeholder path initially — resolved by running Git commands from the project root directory.
 
+**2. Git branch rename error**
 
-Self-Assessment
-What I Learned
+```bash
+# ❌ Incorrect
+git branch - M main
 
-Java program structure
-Variables and data types
-User input handling
-Conditional statements
-Basic problem-solving logic
-Git workflow (add → commit → push)
+# ✅ Correct
+git branch -M main
+```
 
-Areas to Improve
+**3. Missing Scanner import**
 
-Follow Java naming conventions consistently
-Write more reusable methods
-Practice additional edge cases for input validation
+```java
+import java.util.Scanner;
+```
 
+---
 
-Git Commands Used
+## 📝 Self-Assessment
+
+**What I learned:**
+- Java program structure
+- Variables and data types
+- User input handling
+- Conditional statements
+- Basic problem-solving logic
+- Git workflow (`add` → `commit` → `push`)
+
+**Areas to improve:**
+- Follow Java naming conventions consistently
+- Write reusable utility methods
+- Practice more edge cases in input validation
+
+---
+
+## 🔧 Git Commands Used
+
+```bash
 git add .
 git commit -m "Day 01 completed: Java setup and basic programs"
 git push
+```
 
+---
 
-Completion Checklist
+## ⏱️ Time Spent
 
-[x] JDK installed
-[x] IntelliJ IDEA configured
-[x] Git and GitHub connected
-[x] Hello World completed
-[x] Sum program completed
-[x] Swap using temporary variable completed
-[x] Swap without temporary variable completed
-[x] Even/Odd program completed
-[x] Largest among three completed
-[x] Test output screenshots added
-[x] Code pushed to GitHub
+| Activity | Duration |
+|---|---|
+| Environment setup | 30 min |
+| Concept learning | 45 min |
+| Hands-on coding | 90 min |
+| Testing & verification | 30 min |
+| GitHub documentation | 20 min |
+| **Total** | **~3 hr 35 min** |
 
+---
 
-Final Status
-Day 01 Successfully Completed ✅
-This day provided the foundation for the upcoming modules on OOP, Collections, Streams, problem-solving, and Spring Boot backend development.
+## ✅ Completion Checklist
+
+- [✅] JDK installed
+- [x] IntelliJ IDEA configured
+- [x] Git configured
+- [x] GitHub connected
+- [x] Hello World completed
+- [x] Sum program completed
+- [x] Swap using temporary variable completed
+- [x] Swap without temporary variable completed
+- [x] Even/Odd program completed
+- [x] Largest among three completed
+- [x] Test output screenshots added
+- [x] Code pushed to GitHub
+
+---
+
+## 🎯 Final Status
+
+**Day 01 — Successfully Completed ✅**
+
+This day laid the foundation for upcoming modules: OOP, Collections, Streams, problem-solving, JDBC, and Spring Boot backend development.
