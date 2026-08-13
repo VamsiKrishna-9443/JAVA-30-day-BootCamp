@@ -1,0 +1,59 @@
+# Day 01 Test Output
+
+## HelloWorld
+
+Hello, World!
+
+---
+
+## SUM
+
+Enter first number: 10
+Enter second number: 20
+Sum = 30
+
+---
+
+## SwapUsingTemp
+
+Before swapping:
+a = 10
+b = 20
+
+After swapping:
+a = 20
+b = 10
+
+---
+
+## SwapWithoutTemp
+
+Before swapping:
+a = 10
+b = 20
+
+After swapping:
+a = 20
+b = 10
+
+---
+
+## EvenOrOdd
+
+Enter the Number: 7
+7 is an Odd Number
+
+---
+
+## LargestAmongThree
+
+Enter the Three Numbers:
+12
+45
+30
+
+Largest Number = 45
+
+---
+
+All programs compiled and executed successfully in IntelliJ IDEA.
