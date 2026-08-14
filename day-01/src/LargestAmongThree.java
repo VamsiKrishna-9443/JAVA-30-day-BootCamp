@@ -1,7 +1,7 @@
 import java.util.*;
 public class LargestAmongThree
 {
-    public static int FindLargest(int a , int b , int c)
+    public static int findLargest(int a , int b , int c)
     {
         if(a  > b)
         {
@@ -24,7 +24,7 @@ public class LargestAmongThree
         int b = sc.nextInt();
         int c = sc.nextInt();
 
-        int largest = FindLargest(a,b,c);
+        int largest = findLargest(a,b,c);
         System.out.println("Largest number :" + largest);
     }
 }
