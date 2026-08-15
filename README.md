@@ -3,7 +3,7 @@
 <h1 align="center">🚀 JAVA 30-DAY BOOTCAMP</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2500&pause=1000&color=F7B93E&center=true&vCenter=true&width=700&lines=Java+Developer+Journey+Started!;Day+1+%E2%9C%85+Completed;Day+2+%E2%9C%85+Completed;Learning+Core+Java+%E2%86%92+Spring+Boot+%E2%86%92+REST+APIs;Building+Consistency+for+30+Days+%F0%9F%94%A5" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2500&pause=1000&color=F7B93E&center=true&vCenter=true&width=700&lines=Java+Developer+Journey+Started!;Day+1+%E2%9C%85+Completed;Day+2+%E2%9C%85+Completed;Day+3+%E2%9C%85+Completed;Learning+Core+Java+%E2%86%92+Spring+Boot+%E2%86%92+REST+APIs;Building+Consistency+for+30+Days+%F0%9F%94%A5" alt="Typing SVG" />
 </p>
 
 ---
@@ -23,11 +23,11 @@ The bootcamp is designed to take a developer from **Java Fundamentals → OOP �
 ### Overall Bootcamp Progress
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Progress-2%2F30%20Days-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Progress-3%2F30%20Days-brightgreen?style=for-the-badge" />
 </p>
 
 <p align="center">
-  <img src="https://progress-bar.dev/7/?scale=30&title=Bootcamp+Progress&width=650&color=babaca&suffix=%20completed"/>
+  <img src="https://progress-bar.dev/10/?scale=30&title=Bootcamp+Progress&width=650&color=babaca&suffix=%20completed"/>
 </p>
 
 ---
@@ -38,6 +38,7 @@ The bootcamp is designed to take a developer from **Java Fundamentals → OOP �
 | --------- | ------------------------------------------------- | ----------- |
 | **Day 1** | Java Setup, JVM, JDK, JRE, Variables & Data Types | ✅ Completed |
 | **Day 2** | Operators, Conditions & Loops                     | ✅ Completed |
+| **Day 3** | Methods, Arrays & Strings                         | ✅ Completed |
 
 ---
 
@@ -83,6 +84,27 @@ The bootcamp is designed to take a developer from **Java Fundamentals → OOP �
 * Multiplication Table
 * Prime Number Checker
 * Factorial Program
+
+---
+
+## 📅 Day 3 – Methods, Arrays & Strings
+
+### ✔ Concepts Covered
+
+* Methods & Parameters
+* Return Values
+* Method Overloading
+* Arrays
+* String APIs
+* Reusable Method Design
+
+### 💻 Programs Implemented
+
+* Reverse String
+* Palindrome Checker
+* Character Frequency Counter
+* Max / Min in Array
+* Second Largest in Array
 
 ---
 
@@ -161,6 +183,11 @@ JAVA-30-day-BootCamp/
 │   ├── test-output/
 │   └── README.md
 │
+├── day-03/
+│   ├── src/
+│   ├── test-output/
+│   └── README.md
+│
 ├── assessments/
 ├── week-1/
 ├── week-2/
@@ -190,7 +217,7 @@ By the end of this bootcamp, I aim to:
 ```text
 Day 01  ██████████ 100%
 Day 02  ██████████ 100%
-Day 03  ░░░░░░░░░░   0%
+Day 03  ██████████ 100%
 Day 04  ░░░░░░░░░░   0%
 Day 05  ░░░░░░░░░░   0%
 ...
