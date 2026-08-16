@@ -1,0 +1,37 @@
+DSA PROGRAMS - APPROACH AND COMPLEXITY
+
+1.  FIZZBUZZ Approach: Loop from 1 to n. Check divisibility by both 3
+    and 5 first, then by 3, then by 5. Otherwise print the number. Time
+    Complexity: O(n) Space Complexity: O(1)
+
+2.  SUM OF DIGITS Approach: Repeatedly extract the last digit using %
+    10, add it to the total, and remove the last digit using / 10. Time
+    Complexity: O(d), where d is the number of digits. Space Complexity:
+    O(1)
+
+3.  ARMSTRONG NUMBER Approach: Extract each digit using % 10, calculate
+    its cube, add the cubes, and compare the final sum with the original
+    number. Time Complexity: O(d), where d is the number of digits.
+    Space Complexity: O(1)
+
+4.  ANAGRAM Approach: First check whether both strings have the same
+    length. Convert them to character arrays, sort both arrays, and
+    compare them. Time Complexity: O(n log n) Space Complexity: O(n)
+
+5.  MISSING NUMBER Approach: Calculate the expected sum of numbers from
+    0 to n using n*(n+1)/2. Calculate the actual array sum and subtract
+    it from the expected sum. Time Complexity: O(n) Space Complexity:
+    O(1)
+
+6.  DUPLICATES Approach: Compare every element with the elements after
+    it using nested loops. If a duplicate is found and it is not already
+    in the result list, add it. Time Complexity: O(n^2) in the worst
+    case. Space Complexity: O(n) for the duplicates result list.
+
+NOTE: The submitted Duplicates.java uses nested loops and
+duplicates.contains(), so its worst-case time complexity remains O(n^2)
+because the nested comparisons dominate the overall work.
+
+7.  FIZZBUZZ USING ARRAYLIST Approach: Loop from 1 to n, determine
+    FizzBuzz/Fizz/Buzz/number, and store every result in an ArrayList
+    before printing. Time Complexity: O(n) Space Complexity: O(n)
