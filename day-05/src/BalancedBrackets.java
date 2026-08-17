@@ -7,10 +7,15 @@ public class BalancedBrackets {
         Stack<Character> st = new Stack<>();
 
         for (char ch : s.toCharArray()) {
-            if (ch == '(' || ch == '{' || ch == '[') {
+            if (ch == '(') {
                 st.push(')');
+            } else if (ch == '{') {
+                st.push('}');
+            } else if (ch == '[') {
+                st.push(']');
             }
-             else {
+             else
+             {
                 if (st.isEmpty() || st.pop() != ch) {
                     return false;
                 }
