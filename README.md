@@ -3,13 +3,13 @@
 <h1 align="center">🚀 JAVA 30-DAY BOOTCAMP</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2500&pause=1000&color=F7B93E&center=true&vCenter=true&width=700&lines=Java+Developer+Journey+Started!;Day+1+%E2%9C%85+Completed;Day+2+%E2%9C%85+Completed;Day+3+%E2%9C%85+Completed;Day+4+%E2%9C%85+Completed;Day+5+%E2%9C%85+Completed;Learning+Core+Java+%E2%86%92+Spring+Boot+%E2%86%92+REST+APIs;Building+Consistency+for+30+Days+%F0%9F%94%A5" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2500&pause=1000&color=F7B93E&center=true&vCenter=true&width=700&lines=Java+Developer+Journey+Started!;Day+1+%E2%9C%85+Completed;Day+2+%E2%9C%85+Completed;Day+3+%E2%9C%85+Completed;Day+4+%E2%9C%85+Completed;Day+5+%E2%9C%85+Completed;Day+6+%E2%9C%85+Completed;Learning+Core+Java+%E2%86%92+Spring+Boot+%E2%86%92+REST+APIs;Building+Consistency+for+30+Days+%F0%9F%94%A5" alt="Typing SVG" />
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-Developer%20Bootcamp-F7B93E?style=for-the-badge&logo=openjdk&logoColor=black" />
-  <img src="https://img.shields.io/badge/Progress-5%2F30%20Days-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Status-Day%205%20Completed-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Progress-6%2F30%20Days-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Day%206%20Completed-success?style=for-the-badge" />
 </p>
 
 ---
@@ -28,23 +28,23 @@ Each day focuses on learning concepts, implementing programs, solving problems, 
 
 ---
 
-## 📊 Current Progress
+# 📊 Current Progress
 
 ### Overall Bootcamp Progress
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Progress-5%2F30%20Days-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Progress-6%2F30%20Days-brightgreen?style=for-the-badge" />
 </p>
 
 <p align="center">
-  <img src="https://progress-bar.dev/17/?scale=30&title=Bootcamp+Progress&width=650&color=babaca&suffix=%20completed"/>
+  <img src="https://progress-bar.dev/20/?scale=30&title=Bootcamp+Progress&width=650&color=babaca&suffix=%20completed"/>
 </p>
 
-> 🚀 **5 out of 30 days completed — 17% of the bootcamp completed!**
+> 🚀 **6 out of 30 days completed — 20% of the bootcamp completed!**
 
 ---
 
-## ✅ Completed Days
+# ✅ Completed Days
 
 | Day       | Topic                                                           | Status      |
 | --------- | --------------------------------------------------------------- | ----------- |
@@ -53,6 +53,7 @@ Each day focuses on learning concepts, implementing programs, solving problems, 
 | **Day 3** | Methods, Arrays & Strings                                       | ✅ Completed |
 | **Day 4** | Java Problem Solving I                                          | ✅ Completed |
 | **Day 5** | Java Problem Solving II, Big-O & HashMap/Two-Pointer Approaches | ✅ Completed |
+| **Day 6** | Packages, Imports, Access Modifiers, `static` & `final`         | ✅ Completed |
 
 ---
 
@@ -259,6 +260,146 @@ Pointers move according to the condition until the required result is found.
 
 ---
 
+# 📅 Day 6 – Packages, Imports, Access Modifiers, `static` & `final`
+
+### 🎯 Objective
+
+Day 6 focused on understanding how Java organizes code using **packages and imports**, controls visibility using **access modifiers**, and creates reusable utility classes using **`static` and `final`**.
+
+### 🧠 Concepts Covered
+
+* Java Packages
+* `package` keyword
+* `import` keyword
+* Access Modifiers
+* `public`
+* `private`
+* `protected`
+* Default access
+* `static` keyword
+* Static methods
+* Static variables
+* `final` variables
+* `final` methods
+* `final` classes
+* Encapsulation
+* Private constructors
+* Utility class design
+
+### 🔐 Access Modifier Understanding
+
+```text
+private   → Same class only
+default   → Same package
+protected → Same package + subclasses
+public    → Accessible from anywhere
+```
+
+### ⚡ Static
+
+Learned that `static` members belong to the **class rather than individual objects**.
+
+Example:
+
+```java
+MathUtils.add(10, 20);
+```
+
+No object creation is required.
+
+### 🔒 Final
+
+Learned that `final` prevents modification, overriding, or inheritance depending on where it is used.
+
+```java
+final int MAX = 100;
+```
+
+```java
+final void display() {
+    System.out.println("Hello");
+}
+```
+
+```java
+final class MathUtils {
+}
+```
+
+### 🛡️ Encapsulation with Private Constructor
+
+Built utility classes using a private constructor:
+
+```java
+private StringUtils() {
+    // Prevent object creation
+}
+```
+
+This prevents unnecessary object creation because utility methods are accessed using the class name.
+
+### 🛠️ Utility Packages Built
+
+```text
+Day06/
+│
+├── utils/
+│   ├── MathUtils.java
+│   └── StringUtils.java
+│
+└── Main.java
+```
+
+### `MathUtils`
+
+Implemented reusable static methods:
+
+* `add()`
+* `subtract()`
+* `multiply()`
+* `divide()`
+
+Also implemented a constant:
+
+```java
+public static final double PI = 3.14159;
+```
+
+### `StringUtils`
+
+Implemented reusable static methods:
+
+* `reverse()`
+* `isPalindrome()`
+* `countCharacters()`
+* `toUpperCase()`
+
+### 💡 Key Takeaway
+
+```text
+Package
+   ↓
+Organize Code
+   ↓
+Import
+   ↓
+Access Required Classes
+   ↓
+Access Modifiers
+   ↓
+Control Visibility
+   ↓
+static
+   ↓
+Class-Level Utility
+   ↓
+final
+   ↓
+Prevent Modification
+```
+
+---
+
 # 🗺️ 30-Day Roadmap
 
 ## 🔹 Week 1 – Java Fundamentals & Problem Solving
@@ -274,7 +415,10 @@ Pointers move according to the condition until the required result is found.
 * Big-O & Complexity Analysis
 * HashMap Approaches
 * Two-Pointer Approaches
-* Packages & Access Modifiers
+* Packages & Imports
+* Access Modifiers
+* `static` & `final`
+* Utility Class Design
 * Week 1 Assessment
 
 ---
@@ -362,6 +506,15 @@ JAVA-30-day-BootCamp/
 │   ├── test-output/
 │   └── README.md
 │
+├── day-06/
+│   ├── src/
+│   │   ├── utils/
+│   │   │   ├── MathUtils.java
+│   │   │   └── StringUtils.java
+│   │   └── Main.java
+│   ├── test-output/
+│   └── README.md
+│
 ├── assessments/
 ├── week-1/
 ├── week-2/
@@ -379,6 +532,7 @@ By the end of this bootcamp, I aim to:
 * ✅ Analyze time and space complexity
 * ✅ Solve DSA problems efficiently
 * ✅ Apply appropriate problem-solving patterns
+* ✅ Understand Java access control and encapsulation
 * ✅ Build object-oriented applications
 * ✅ Use Collections and Streams effectively
 * ✅ Handle exceptions and concurrency
@@ -396,7 +550,7 @@ Day 02  ██████████ 100%  ✅
 Day 03  ██████████ 100%  ✅
 Day 04  ██████████ 100%  ✅
 Day 05  ██████████ 100%  ✅
-Day 06  ░░░░░░░░░░   0%
+Day 06  ██████████ 100%  ✅
 Day 07  ░░░░░░░░░░   0%
 Day 08  ░░░░░░░░░░   0%
 ...
@@ -415,12 +569,12 @@ Day 02  ●
 Day 03  ●
 Day 04  ●
 Day 05  ●
+Day 06  ●
         │
         ▼
-   🚀 17% COMPLETE
+   🚀 20% COMPLETE
         │
         ▼
-Day 06  ○
 Day 07  ○
 Day 08  ○
 ...
@@ -452,6 +606,10 @@ Basic Problem Solving      ██████████ 100%
 Big-O Analysis             ██████████ 100%
 HashMap Concepts           ██████████ 100%
 Two-Pointer Concepts       ██████████ 100%
+Packages & Imports         ██████████ 100%
+Access Modifiers           ██████████ 100%
+static & final             ██████████ 100%
+Encapsulation Basics       ██████████ 100%
 
 OOP                        ░░░░░░░░░░   0%
 Collections                ░░░░░░░░░░   0%
@@ -503,6 +661,7 @@ The objective is to become a developer who can **understand problems, write clea
 * 🌱 Currently learning **Core Java → Spring Boot → REST APIs**
 
 🔗 **GitHub:**
+
 https://github.com/VamsiKrishna-9443
 
 ---
@@ -521,7 +680,7 @@ If you find this repository helpful, consider giving it a **⭐ Star** and follo
 
 <p align="center">
 
-### 🚀 5 / 30 DAYS COMPLETED
+### 🚀 6 / 30 DAYS COMPLETED
 
 **Learn • Code • Solve • Optimize • Build • Repeat**
 
