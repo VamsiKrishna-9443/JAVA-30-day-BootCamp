@@ -12,12 +12,6 @@ Today I learned and practiced:
 * Encapsulation
 * Utility classes
 
-## 🎬 Day 06 Animation
-
-![Day 06 Java Animation](./assets/day-06-animation.gif)
-
-> Animation demonstrating the concepts and implementation completed on Day 06.
-
 ## 🎯 Objectives
 
 * Understand packages and imports.
@@ -31,8 +25,6 @@ Today I learned and practiced:
 
 ```text
 day-06/
-├── assets/
-│   └── day-06-animation.gif
 ├── src/
 │   ├── mathutils/
 │   │   └── MathUtils.java
