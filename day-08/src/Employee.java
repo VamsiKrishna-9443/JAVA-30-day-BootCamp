@@ -6,8 +6,9 @@ class Employee {
 
     static String company = "ABC Technologies";
 
-    Employee(int id, String name, double salary) {
-        this.id = id;
+    Employee(int id1, String name, double salary)
+    {
+        id = id1;
         this.name = name;
         this.salary = salary;
     }
