@@ -8,6 +8,7 @@
 ## 🎬 Day 11 Opening
 
 ![Day 11 Opening Animation](./day11-opening.gif)
+<img width="1400" height="780" alt="day11-start-animation" src="https://github.com/user-attachments/assets/b2eafe99-5670-48ae-8152-8bc3412697cb" />
 
 ---
 
@@ -350,6 +351,8 @@ equals()   → confirms equality
 # 🎬 8. Equality + Hashing Animation
 
 ![Day 11 Concepts Animation](./day11-concepts.gif)
+<img width="1400" height="780" alt="day11-equals-hashcode" src="https://github.com/user-attachments/assets/21fd9911-5aa8-442e-80d1-10dd4f228981" />
+
 
 ---
 
@@ -930,6 +933,8 @@ Employee
 ## 🎬 Day 11 Closing Animation
 
 ![Day 11 Closing Animation](./day11-closing.gif)
+<img width="1400" height="780" alt="day11-end-animation" src="https://github.com/user-attachments/assets/b493983d-b90e-426a-90c4-81265ae4d1a4" />
+
 
 ---
 
