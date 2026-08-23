@@ -10,12 +10,12 @@ public class MethodOverriding
         @Override
         void start()
         {
-            System.out.println("Car Started");
+            System.out.println("Equals.Car Started");
         }
     }
 
     public static void main(String[] args) {
-        System.out.println("Car Objects :");
+        System.out.println("Equals.Car Objects :");
         Car c = new Car();
         c.start();
 
