@@ -7,14 +7,14 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=22&duration=2800&pause=900&color=00D9FF&center=true&vCenter=true&width=850&lines=Java+Developer+Journey+%F0%9F%9A%80;Day+06+%E2%9C%85+Completed;Core+Java+%E2%86%92+DSA+%E2%86%92+Spring+Boot+%E2%86%92+REST+APIs;Building+Backend+Skills+One+Day+at+a+Time+%F0%9F%94%A5" alt="Typing animation" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=22&duration=2800&pause=900&color=00D9FF&center=true&vCenter=true&width=850&lines=Java+Developer+Journey+%F0%9F%9A%80;Day+12+%E2%9C%85+Completed;Core+Java+%E2%86%92+OOP+%E2%86%92+Collections+%E2%86%92+Exceptions;Building+Backend+Skills+One+Day+at+a+Time+%F0%9F%94%A5" alt="Typing animation" />
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-17%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/Progress-6%2F30-00C853?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Completion-20%25-00D9FF?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Status-Day%2006%20Completed-00C853?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Progress-12%2F30-00C853?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Completion-40%25-00D9FF?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Day%2012%20Completed-00C853?style=for-the-badge" />
 </p>
 
 <p align="center">
@@ -62,16 +62,23 @@ Become a strong **Java Backend Developer** by consistently:
 # 📊 Bootcamp Progress
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Days%20Completed-6%20%2F%2030-00C853?style=for-the-badge&logo=checkmarx&logoColor=white" />
-  <img src="https://img.shields.io/badge/Remaining-24%20Days-607D8B?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Completion-20%25-00D9FF?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Days%20Completed-12%20%2F%2030-00C853?style=for-the-badge&logo=checkmarx&logoColor=white" />
+  <img src="https://img.shields.io/badge/Remaining-18%20Days-607D8B?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Completion-40%25-00D9FF?style=for-the-badge" />
 </p>
 
 <p align="center">
-  <img src="https://progress-bar.dev/20/?scale=100&title=BOOTCAMP%20PROGRESS&width=800&color=00C853&suffix=%25" alt="20 percent progress" />
+  <img src="https://progress-bar.dev/40/?scale=100&title=BOOTCAMP%20PROGRESS&width=800&color=00C853&suffix=%25" alt="40 percent progress" />
 </p>
 
-> 🚀 **6 / 30 days completed — 20% of the bootcamp completed!**
+> 🚀 **12 / 30 days completed — 40% of the bootcamp completed!**
+> <img width="1400" height="520" alt="bootcamp-progress-day12" src="https://github.com/user-attachments/assets/b76ec7ae-8606-44b4-9b35-8cf4a1e6bda2" />
+
+
+<p align="center">
+  <img src="./bootcamp-progress-day12.gif" alt="Animated Day 12 bootcamp progress" width="900" />
+</p>
+
 
 ---
 
@@ -87,6 +94,56 @@ Become a strong **Java Backend Developer** by consistently:
 | 🟢 **06** | Packages, Imports, Access Modifiers, `static` & `final` | ✅ Completed |
 | ⚪ **07** | Upcoming | 🔜 Next |
 | ⚪ **08–30** | Upcoming Java & Backend Topics | ⏳ Planned |
+
+---
+
+# 📚 Days 07–12 — Progress Highlights
+
+### 🟢 Day 07 — Object-Oriented Programming & Inheritance
+- Classes and objects
+- Inheritance and reusable behavior
+- Parent-child relationships
+- Practical Java OOP programs
+
+### 🟢 Day 08 — Abstraction & Interfaces
+- Abstract classes
+- Abstract methods
+- Interfaces
+- Abstraction and implementation
+- Practical interface examples
+
+### 🟢 Day 09 — Core Java / OOP Practice
+- Consolidated Java and OOP concepts
+- Practical coding exercises
+- Applying concepts through small programs
+
+### 🟢 Day 10 — Object Methods & Java Practice
+- Object-level Java concepts
+- `toString()` and object representation
+- Practical object-oriented exercises
+
+### 🟢 Day 11 — `equals()` & `hashCode()`
+- Object equality
+- `==` vs `equals()`
+- `equals()` contract
+- `hashCode()` contract
+- Hash collisions
+- Employee equality
+- Employee objects in `HashSet`
+- Employee objects as `HashMap` keys
+
+### 🟢 Day 12 — Exception Handling
+- Exception hierarchy
+- Checked exceptions
+- Unchecked exceptions
+- `try`, `catch`, `finally`
+- Multiple `catch`
+- `throw` and `throws`
+- Custom exceptions
+- `InsufficientFundsException`
+- Bank Account exception-handling project
+
+> **Milestone:** Days 01–12 are now complete. The bootcamp has moved from Java fundamentals and problem solving into OOP, object equality, hashing, and robust exception handling.
 
 ---
 
@@ -394,11 +451,11 @@ left  → ---------------- ← right
 
 ## 🔹 Week 2 — OOP, Exceptions & Collections
 
-- [ ] Classes & Objects
-- [ ] Encapsulation & Inheritance
-- [ ] Polymorphism & Interfaces
-- [ ] `equals()` & `hashCode()`
-- [ ] Exception Handling
+- [x] Classes & Objects
+- [x] Encapsulation & Inheritance
+- [x] Polymorphism & Interfaces
+- [x] `equals()` & `hashCode()`
+- [x] Exception Handling
 - [ ] Collections Framework
 - [ ] Console Library Management System
 
@@ -456,7 +513,13 @@ ENCAPSULATION
 ████████████████████  100%
 
 OOP
-░░░░░░░░░░░░░░░░░░░░    0%
+████████████████████  100%
+
+EQUALITY & HASHING
+████████████████████  100%
+
+EXCEPTION HANDLING
+████████████████████  100%
 
 COLLECTIONS
 ░░░░░░░░░░░░░░░░░░░░    0%
@@ -485,10 +548,14 @@ Day 03  ██████████ 100%  ✅
 Day 04  ██████████ 100%  ✅
 Day 05  ██████████ 100%  ✅
 Day 06  ██████████ 100%  ✅
-Day 07  ░░░░░░░░░░   0%  ⏳
-Day 08  ░░░░░░░░░░   0%  ⏳
-Day 09  ░░░░░░░░░░   0%  ⏳
-Day 10  ░░░░░░░░░░   0%  ⏳
+Day 07  ██████████ 100%  ✅
+Day 08  ██████████ 100%  ✅
+Day 09  ██████████ 100%  ✅
+Day 10  ██████████ 100%  ✅
+Day 11  ██████████ 100%  ✅
+Day 12  ██████████ 100%  ✅
+Day 13  ░░░░░░░░░░   0%  ⏳
+Day 14  ░░░░░░░░░░   0%  ⏳
 ...
 Day 30  ░░░░░░░░░░   0%  ⏳
 ```
@@ -643,5 +710,5 @@ If you find this repository useful or want to follow the journey:
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=18&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=%F0%9F%9A%80+DAY+06+%2F+30+COMPLETED;Learn+%E2%80%A2+Code+%E2%80%A2+Solve+%E2%80%A2+Optimize+%E2%80%A2+Build;Next+Stop%3A+Day+07+%F0%9F%94%A5" alt="Footer animation" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=18&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=%F0%9F%9A%80+DAY+12+%2F+30+COMPLETED;Learn+%E2%80%A2+Code+%E2%80%A2+Solve+%E2%80%A2+Optimize+%E2%80%A2+Build;Next+Stop%3A+Day+13+%F0%9F%94%A5" alt="Footer animation" />
 </p>
