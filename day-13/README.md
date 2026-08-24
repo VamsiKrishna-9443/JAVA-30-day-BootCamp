@@ -10,11 +10,9 @@
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
 ![Made with](https://img.shields.io/badge/Made%20with-☕%20Java-red?style=for-the-badge)
 
-</div>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Rocket.png" width="60" alt="rocket" />
-</p>
+
+</div> <p align="center"> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Rocket.png" width="60" alt="rocket" /> </p>
 
 Part of the **[JAVA-30-day-BootCamp](../)** series — a self-directed, 30-day journey through Core Java, building toward OOP, Collections, Streams, JDBC, and Spring Boot.
 
