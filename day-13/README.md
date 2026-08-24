@@ -13,7 +13,7 @@
 
 
 </div> 
-<img width="120" height="120" alt="rocket" src="https://github.com/user-attachments/assets/3e497e16-1b55-4fd2-bbad-31c013372693" />
+
 
 
 Part of the **[JAVA-30-day-BootCamp](../)** series — a self-directed, 30-day journey through Core Java, building toward OOP, Collections, Streams, JDBC, and Spring Boot.
