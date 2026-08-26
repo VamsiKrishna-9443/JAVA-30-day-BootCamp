@@ -230,7 +230,7 @@ day-06/
 │   │   ├── MathUtils.java
 │   │   └── StringUtils.java
 │   │
-│   └── Main.java
+│   └── Management.java
 │
 ├── test-output/
 └── README.md
@@ -613,7 +613,7 @@ JAVA-30-day-BootCamp/
 │   │   ├── utils/
 │   │   │   ├── MathUtils.java
 │   │   │   └── StringUtils.java
-│   │   └── Main.java
+│   │   └── Management.java
 │   ├── test-output/
 │   └── README.md
 │

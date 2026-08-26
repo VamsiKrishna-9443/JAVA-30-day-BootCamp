@@ -349,7 +349,7 @@ class NetBankingPayment implements PaymentProcessor {
 }
 
 
-public class Main {
+public class Management {
 
     public static void main(String[] args) {
 

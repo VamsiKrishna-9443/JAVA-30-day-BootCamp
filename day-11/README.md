@@ -101,7 +101,7 @@ false
 | Feature | `==` | `equals()` |
 |---|---|---|
 | Object comparison | Reference equality | Logical equality |
-| Main question | Same object? | Same logical object? |
+| Management question | Same object? | Same logical object? |
 | Customizable | No | Yes |
 | Used with objects | Compares references | Compares object meaning |
 | Defined by | Java operator | `Object` method |
@@ -793,7 +793,7 @@ Confirm equality
 |---|---|---|
 | Stores | Objects | Key-value pairs |
 | Duplicate keys/elements | Not allowed | Keys are unique |
-| Main method | `add()` | `put()` |
+| Management method | `add()` | `put()` |
 | Lookup | `contains()` | `get()` |
 | Uses hashing | Yes | Yes |
 | Uses `equals()` | Yes | Yes |

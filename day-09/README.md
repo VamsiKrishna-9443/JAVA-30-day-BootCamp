@@ -550,7 +550,7 @@ class Manager extends Employee {
 }
 
 
-public class Main {
+public class Management {
 
     public static void main(String[] args) {
 
