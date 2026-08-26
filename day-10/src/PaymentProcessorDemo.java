@@ -31,41 +31,8 @@ class PayPalProcessor implements PaymentProcessor {
 
 // Management class
 public class PaymentProcessorDemo {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     public static void main(String[] args) {
-
         PaymentProcessor payment;
-
         payment = new UPIProcessor();
         payment.processPayment(1000);
 
