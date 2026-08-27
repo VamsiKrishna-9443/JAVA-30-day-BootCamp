@@ -1,6 +1,73 @@
-::: {align="center"}
-`<img src="assets/day15-start.svg" alt="Day 15 - Java Generics and Sorting" width="900"/>`{=html}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260">
+<defs>
+  <linearGradient id="g" x1="0" x2="1">
+    <stop offset="0%" stop-color="#7c3aed"/>
+    <stop offset="50%" stop-color="#2563eb"/>
+    <stop offset="100%" stop-color="#06b6d4"/>
+  </linearGradient>
+</defs>
 
+<rect width="1200" height="260" rx="28" fill="#0b1020"/>
+
+<circle cx="150" cy="130" r="70"
+        fill="none"
+        stroke="url(#g)"
+        stroke-width="8"
+        stroke-dasharray="18 14">
+  <animateTransform
+    attributeName="transform"
+    type="rotate"
+    from="0 150 130"
+    to="360 150 130"
+    dur="8s"
+    repeatCount="indefinite"/>
+</circle>
+
+<text x="150" y="150"
+      text-anchor="middle"
+      font-family="Arial, sans-serif"
+      font-size="62"
+      font-weight="700"
+      fill="#ffffff">
+  J15
+</text>
+
+<text x="300" y="105"
+      font-family="Arial, sans-serif"
+      font-size="42"
+      font-weight="700"
+      fill="#ffffff">
+  Java Day 15
+</text>
+
+<text x="300" y="155"
+      font-family="Arial, sans-serif"
+      font-size="25"
+      fill="#b9c7e6">
+  Generics • Comparable • Comparator • Sorting
+</text>
+
+<rect x="300" y="185"
+      width="680"
+      height="6"
+      rx="3"
+      fill="url(#g)">
+  <animate
+    attributeName="width"
+    from="0"
+    to="680"
+    dur="2s"
+    fill="freeze"/>
+</rect>
+
+<text x="300" y="225"
+      font-family="Arial, sans-serif"
+      font-size="18"
+      fill="#7dd3fc">
+  Type-safe code. Flexible sorting. Practical Java.
+</text>
+
+</svg>
 # ☕ Java Day 15 --- Generics, Comparable & Comparator
 
 ### A practical deep dive into type-safe reusable code and flexible object sorting
@@ -950,8 +1017,69 @@ day-15/
 
 ------------------------------------------------------------------------
 
-::: {align="center"}
-`<img src="assets/day15-end.svg" alt="Day 15 Complete" width="900"/>`{=html}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220">
+
+<defs>
+  <linearGradient id="g" x1="0" x2="1">
+    <stop offset="0%" stop-color="#22c55e"/>
+    <stop offset="50%" stop-color="#06b6d4"/>
+    <stop offset="100%" stop-color="#8b5cf6"/>
+  </linearGradient>
+</defs>
+
+<rect width="1200" height="220" rx="28" fill="#0b1020"/>
+
+<circle cx="105" cy="110" r="52"
+        fill="none"
+        stroke="url(#g)"
+        stroke-width="7"
+        stroke-dasharray="12 10">
+  <animateTransform
+    attributeName="transform"
+    type="rotate"
+    from="0 105 110"
+    to="360 105 110"
+    dur="6s"
+    repeatCount="indefinite"/>
+</circle>
+
+<path d="M78 110 l18 18 l38 -45"
+      fill="none"
+      stroke="#4ade80"
+      stroke-width="9"
+      stroke-linecap="round"
+      stroke-linejoin="round">
+  <animate
+    attributeName="stroke-dasharray"
+    from="0,100"
+    to="100,0"
+    dur="1.2s"
+    fill="freeze"/>
+</path>
+
+<text x="190" y="100"
+      font-family="Arial, sans-serif"
+      font-size="38"
+      font-weight="700"
+      fill="#ffffff">
+  DAY 15 COMPLETE
+</text>
+
+<text x="190" y="145"
+      font-family="Arial, sans-serif"
+      font-size="23"
+      fill="#b9c7e6">
+  Generics mastered • Sorting logic practiced • Git-ready
+</text>
+
+<text x="190" y="180"
+      font-family="Arial, sans-serif"
+      font-size="17"
+      fill="#7dd3fc">
+  Next stop: Day 16 → keep building.
+</text>
+
+</svg>
 
 ### ☕ Learn → Code → Test → Understand → Repeat
 
