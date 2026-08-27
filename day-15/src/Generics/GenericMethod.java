@@ -38,7 +38,7 @@ public class GenericMethod {
         GenericMethod.printValue("Krishna");
         GenericMethod.printValue(42.44);
 
-        System.out.println("===================================");
+        System.out.println("=======================================");
         System.out.println();
         String name = getValue("Bhoomika");
         Integer age = getValue(22);

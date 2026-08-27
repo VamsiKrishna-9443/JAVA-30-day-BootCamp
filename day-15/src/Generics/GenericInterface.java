@@ -9,8 +9,7 @@ interface Repository<T> {
 }
 
 // generic class implementing generic interface
-class DataRepository<T>
-        implements Repository<T> {
+class DataRepository<T> implements Repository<T> {
 
     private T data;
 
@@ -34,8 +33,7 @@ public class GenericInterface {
 
     public static void main(String[] args) {
 
-        DataRepository<String> repository =
-                new DataRepository<>();
+        DataRepository<String> repository = new DataRepository<>();
 
         repository.save("Hello Java");
 
