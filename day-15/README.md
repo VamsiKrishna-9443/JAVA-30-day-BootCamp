@@ -96,14 +96,9 @@ JAVA 30-DAY BOOTCAMP
 
 A practical deep dive into type-safe reusable code and flexible object sorting
 
-
-
-
-
-
 </div>
 
-🎯 Day 15 Objective
+## 🎯 Day 15 Objective
 
 Day 15 focuses on two important areas of Java development:
 
@@ -116,43 +111,44 @@ The goal is not just to memorize syntax, but to understand why these
 features exist, how Java uses them internally, and where they appear in
 real applications.
 
-📚 1. Generics
+## 📚 1. Generics
 
-What are Generics?
+### What are Generics?
 
 Generics allow a class, interface, or method to work with different data
 types while maintaining compile-time type safety.
 
 Without generics:
 
+```java
 List list = new ArrayList();
 
 list.add("Java");
 list.add(100);
 
 String value = (String) list.get(1); // Runtime problem
+```
 
 With generics:
 
+```java
 List<String> names = new ArrayList<>();
 
 names.add("Java");
 // names.add(100); // Compile-time error
+```
 
-Why Generics?
+### Why Generics?
 
-Type safety
+- Type safety
+- Fewer explicit casts
+- Reusable classes and methods
+- Errors are detected at compile time
+- Cleaner and more maintainable code
 
-Fewer explicit casts
+### Generic Class
 
-Reusable classes and methods
-
-Errors are detected at compile time
-
-Cleaner and more maintainable code
-
-Generic Class
-
+```java
 class Box<T> {
 
     private T value;
@@ -165,68 +161,85 @@ class Box<T> {
         return value;
     }
 }
+```
 
 Usage:
 
+```java
 Box<String> stringBox = new Box<>();
 stringBox.setValue("Java");
 
 Box<Integer> integerBox = new Box<>();
 integerBox.setValue(100);
+```
 
 Here T is a type parameter.
 
 Think of it as:
 
+```
 Box<T>
   |
   +-- T can become String
   +-- T can become Integer
   +-- T can become Employee
+```
 
-🧩 2. Generic Methods
+## 🧩 2. Generic Methods
 
 A generic method can work with different types independently of the
 class.
 
+```java
 public static <T> void printValue(T value) {
     System.out.println(value);
 }
+```
 
 Usage:
 
+```java
 printValue("Java");
 printValue(100);
 printValue(25.5);
+```
 
-Important syntax
+### Important syntax
 
-<T> 
+```
+<T>
+```
 
 appears before the return type:
 
+```java
 public static <T> void method(T value)
+```
 
-The first <T> declares the type parameter.
+The first `<T>` declares the type parameter.
 
-🔗 3. Generic Interfaces
+## 🔗 3. Generic Interfaces
 
 Interfaces can also use type parameters.
 
+```java
 interface Pair<T, U> {
 
     T getFirst();
 
     U getSecond();
 }
+```
 
 This makes the interface reusable with different combinations of types.
 
-🃏 4. Wildcards
+## 🃏 4. Wildcards
 
 A wildcard is represented by:
 
+```
 ?
+```
 
 It means:
 
@@ -234,17 +247,23 @@ It means:
 
 Example:
 
+```java
 List<?> list
+```
 
 This can refer to:
 
+```
 List<String>
 List<Integer>
 List<Employee>
+```
 
-Upper Bound
+### Upper Bound
 
+```java
 List<? extends Number>
+```
 
 Means:
 
@@ -252,34 +271,41 @@ The list contains Number or a subclass of Number.
 
 Examples:
 
+```
 List<Integer>
 List<Double>
+```
 
-Lower Bound
+### Lower Bound
 
+```java
 List<? super Integer>
+```
 
 Means:
 
 The list can accept Integer or one of Integer's supertypes.
 
-Easy memory rule
+### Easy memory rule
 
+```
 ? extends  → read / producer
 ? super    → write / consumer
+```
 
 A common memory aid is:
 
-PECS --- Producer Extends, Consumer Super.
+**PECS --- Producer Extends, Consumer Super.**
 
-⚖️ 5. Comparable
+## ⚖️ 5. Comparable
 
-What is Comparable?
+### What is Comparable?
 
 Comparable is used when a class defines its own natural ordering.
 
 Example:
 
+```java
 class Employee implements Comparable<Employee> {
 
     private int id;
@@ -291,6 +317,7 @@ class Employee implements Comparable<Employee> {
         return Double.compare(this.salary, other.salary);
     }
 }
+```
 
 Now Employee has a default sorting rule:
 
@@ -298,58 +325,65 @@ Employees are naturally ordered by salary.
 
 Sorting:
 
+```java
 Collections.sort(employees);
+```
 
 or:
 
+```java
 employees.sort(null);
+```
 
 can use that natural ordering.
 
-How compareTo() Works
+### How compareTo() Works
 
+```java
 int result = e1.compareTo(e2);
+```
 
 The result is interpreted by its sign:
 
+```
 negative → e1 comes before e2
 0        → e1 and e2 are equal for this ordering
 positive → e1 comes after e2
+```
 
 You do not need to return exactly -1, 0, or 1.
 
-🔀 6. Comparator
+## 🔀 6. Comparator
 
-What is Comparator?
+### What is Comparator?
 
 Comparator is used when we want to define a custom/external sorting
 rule.
 
 For example, the same Employee class can be sorted by:
 
-Salary
-
-Name
-
-Joining date
-
-ID
-
-Multiple fields
+- Salary
+- Name
+- Joining date
+- ID
+- Multiple fields
 
 without changing the Employee class.
 
-Lambda Comparator
+### Lambda Comparator
 
+```java
 Comparator<Employee> salaryComparator =
         (e1, e2) ->
                 Double.compare(
                         e1.getSalary(),
                         e2.getSalary()
                 );
+```
 
 This means:
 
+```
 Take Employee e1 and Employee e2
               ↓
 Get e1 salary
@@ -359,28 +393,36 @@ Get e2 salary
 Compare both salaries
               ↓
 Return negative / zero / positive
+```
 
 Then:
 
+```java
 employees.sort(salaryComparator);
+```
 
-🧠 7. Understanding the Lambda
+## 🧠 7. Understanding the Lambda
 
 This:
 
+```java
 Comparator<Employee> salaryComparator =
         (e1, e2) ->
                 Double.compare(
                         e1.getSalary(),
                         e2.getSalary()
                 );
+```
 
 is effectively providing the implementation of:
 
+```java
 int compare(Employee e1, Employee e2)
+```
 
 The traditional anonymous-class version is:
 
+```java
 Comparator<Employee> salaryComparator =
         new Comparator<Employee>() {
 
@@ -392,27 +434,32 @@ Comparator<Employee> salaryComparator =
                 );
             }
         };
+```
 
 The lambda is simply a shorter and cleaner way to express the same
 comparison behavior.
 
-🏗️ 8. Comparator.comparing()
+## 🏗️ 8. Comparator.comparing()
 
 Instead of writing the comparison manually:
 
+```java
 Comparator<Employee> salaryComparator =
         (e1, e2) ->
                 Double.compare(
                         e1.getSalary(),
                         e2.getSalary()
                 );
+```
 
 Java provides:
 
+```java
 Comparator<Employee> salaryComparator =
         Comparator.comparing(Employee::getSalary);
+```
 
-What does Employee::getSalary mean?
+### What does Employee::getSalary mean?
 
 It is a method reference.
 
@@ -422,42 +469,52 @@ It tells Java:
 
 Conceptually:
 
+```
 Employee A → getSalary()
 Employee B → getSalary()
         ↓
 Compare the two salary values
+```
 
-🥇 9. Multi-Level Sorting
+## 🥇 9. Multi-Level Sorting
 
 One of the most useful Comparator features is chained sorting.
 
+```java
 employees.sort(
         Comparator.comparing(Employee::getSalary)
                 .thenComparing(Employee::getName)
                 .thenComparing(Employee::getJoiningDate)
 );
+```
 
 The priority is:
 
+```
 1. Salary
       ↓
 2. If salary is equal → Name
       ↓
 3. If name is also equal → Joining Date
+```
 
 Example:
 
+```
 Employee      Salary     Name
 --------------------------------
 Rahul         50000      Rahul
 Anil          50000      Anil
 Vamsi         60000      Vamsi
+```
 
 After sorting:
 
+```
 Anil          50000
 Rahul         50000
 Vamsi         60000
+```
 
 Salary is the primary key.
 
@@ -466,117 +523,212 @@ Name becomes the secondary key only when salary is equal.
 Joining date becomes the third-level key only when salary and name are
 both equal.
 
-🔽 10. Descending Order
+## 🔽 10. Descending Order
 
 By default:
 
+```java
 Comparator.comparing(Employee::getSalary)
+```
 
 sorts in ascending order.
 
 For descending order:
 
+```java
 Comparator.comparing(Employee::getSalary).reversed()
+```
 
 Example:
 
+```java
 employees.sort(
         Comparator.comparing(Employee::getSalary)
                 .reversed()
 );
+```
 
 For multi-level sorting:
 
+```java
 employees.sort(
         Comparator.comparing(Employee::getSalary)
                 .reversed()
                 .thenComparing(Employee::getName)
 );
+```
 
 Be careful about where reversed() is applied, because reversing
 the whole comparator chain and reversing an individual field can produce
 different ordering rules.
 
-📅 11. Sorting by LocalDate
+### 🔍 Where you put reversed() changes the result
+
+This is one of the most common mistakes with multi-level sorting. `reversed()`
+only flips whatever it is directly attached to — it does not know or care
+about the rest of the chain.
+
+Consider this data:
+
+```
+Employee      Salary     Name
+--------------------------------
+Anil          50000      Anil
+Rahul         50000      Rahul
+Vamsi         60000      Vamsi
+```
+
+**Case A — reverse the whole chain**
+
+```java
+employees.sort(
+        Comparator.comparing(Employee::getSalary)
+                .thenComparing(Employee::getName)
+                .reversed()
+);
+```
+
+`reversed()` is called last, on the *entire* combined comparator. That
+flips everything — including the tie-break — as one unit:
+
+```
+Vamsi         60000
+Rahul         50000
+Anil          50000
+```
+
+Salary is now descending, and within the 50000 tie, Rahul comes before
+Anil — the name ordering was flipped too, because `reversed()` wraps
+the whole chain built so far.
+
+**Case B — reverse only the salary key**
+
+```java
+employees.sort(
+        Comparator.comparing(Employee::getSalary)
+                .reversed()
+                .thenComparing(Employee::getName)
+);
+```
+
+Here `reversed()` is attached only to the salary comparator, *before*
+`thenComparing()` is added. Salary is descending, but the name
+tie-break that follows is untouched — it stays ascending:
+
+```
+Vamsi         60000
+Anil          50000
+Rahul         50000
+```
+
+Salary is still descending (same as Case A), but now Anil comes before
+Rahul in the tie — the opposite order from Case A, because the name
+comparator was never reversed.
+
+**The rule:**
+
+```
+Comparator.comparing(A).thenComparing(B).reversed()
+   → reverses A AND B together (reverses the final combined result)
+
+Comparator.comparing(A).reversed().thenComparing(B)
+   → reverses only A; B still breaks ties in its own natural order
+```
+
+If you want salary descending but name ascending as the tie-break
+(a very common real-world request — "highest paid first, alphabetical
+for ties"), Case B is what you want. If you want the entire sorted list
+flipped end-to-end, Case A is what you want. They are not the same
+comparator, even though both start from the same two fields.
+
+## 📅 11. Sorting by LocalDate
 
 For an employee:
 
+```java
 private LocalDate joiningDate;
+```
 
 You can sort using:
 
+```java
 Comparator.comparing(Employee::getJoiningDate)
+```
 
 Earlier dates come first in ascending order.
 
 Example:
 
+```
 2023-02-15
 2024-05-10
 2025-01-20
+```
 
 This is useful for:
 
-Employee joining date
+- Employee joining date
+- Order date
+- Booking date
+- Transaction date
+- Application submission date
 
-Order date
-
-Booking date
-
-Transaction date
-
-Application submission date
-
-🏢 12. Real-World Business Usage
+## 🏢 12. Real-World Business Usage
 
 These concepts appear frequently in backend applications.
 
-Employee Management
-
+**Employee Management**
+```
 Sort employees by salary
 Sort employees by name
 Sort employees by joining date
+```
 
-E-commerce
-
+**E-commerce**
+```
 Products by price
 Products by rating
 Products by stock
 Products by newest arrival
+```
 
-Banking
-
+**Banking**
+```
 Transactions by amount
 Transactions by date
 Transactions by transaction ID
+```
 
-Logistics / Fleet Systems
-
+**Logistics / Fleet Systems**
+```
 Vehicles by status
 Vehicles by registration date
 Drivers by name
 Trips by start time
+```
 
-Search Results
-
+**Search Results**
+```
 Highest rated first
 Lowest price first
 Newest records first
+```
 
-🔥 13. Comparable vs Comparator
+## 🔥 13. Comparable vs Comparator
 
-Feature                       Comparable                   Comparator
+| Feature | Comparable | Comparator |
+|---|---|---|
+| Package | java.lang | java.util |
+| Main method | compareTo() | compare() |
+| Ordering | Natural/default | Custom |
+| Defined inside class? | Yes | Usually outside |
+| Multiple sorting strategies | Not convenient | Excellent |
+| Modifies class? | Class implements interface | No |
+| Lambda friendly | No | Yes |
 
-Package                       java.lang                  java.util
-Main method                   compareTo()                compare()
-Ordering                      Natural/default              Custom
-Defined inside class?         Yes                          Usually outside
-Multiple sorting strategies   Not convenient               Excellent
-Modifies class?               Class implements interface   No
-Lambda friendly               No                           Yes
+### Simple rule
 
-Simple rule
-
+```
 Comparable
     ↓
 "What is the natural/default order of this object?"
@@ -584,11 +736,13 @@ Comparable
 Comparator
     ↓
 "How do I want to sort this object right now?"
+```
 
-🧪 14. Employee Sorting Example
+## 🧪 14. Employee Sorting Example
 
 A practical example:
 
+```java
 List<Employee> employees = new ArrayList<>();
 
 employees.add(
@@ -617,43 +771,55 @@ employees.add(
                 LocalDate.of(2025, 1, 20)
         )
 );
+```
 
 Sort by salary:
 
+```java
 employees.sort(
         Comparator.comparing(Employee::getSalary)
 );
+```
 
 Sort by name:
 
+```java
 employees.sort(
         Comparator.comparing(Employee::getName)
 );
+```
 
 Sort by joining date:
 
+```java
 employees.sort(
         Comparator.comparing(Employee::getJoiningDate)
 );
+```
 
 Multi-level sorting:
 
+```java
 employees.sort(
         Comparator.comparing(Employee::getSalary)
                 .thenComparing(Employee::getName)
                 .thenComparing(Employee::getJoiningDate)
 );
+```
 
-🧩 15. What Happens During sort()?
+## 🧩 15. What Happens During sort()?
 
 When you write:
 
+```java
 employees.sort(salaryComparator);
+```
 
 Java's sorting mechanism repeatedly needs to compare two employees.
 
 Conceptually:
 
+```
 Employee A
      +
 Employee B
@@ -665,89 +831,109 @@ Compare salaries
 negative / zero / positive
      ↓
 Sorting algorithm decides their order
+```
 
 You provide the comparison rule.
 
 Java's sorting algorithm handles the actual rearrangement.
 
-🎤 16. Interview Questions
+## 🎤 16. Interview Questions
 
-Easy
+### Easy
 
-1. What are Generics?
+**1. What are Generics?**
 
 Generics provide type-safe and reusable code by allowing types to be
 specified as parameters.
 
-2. What is Comparable?
+**2. What is Comparable?**
 
 Comparable defines the natural ordering of objects through
-compareTo().
+`compareTo()`.
 
-3. What is Comparator?
+**3. What is Comparator?**
 
-Comparator defines custom ordering through compare().
+Comparator defines custom ordering through `compare()`.
 
-4. What does a negative result from compare() mean?
+**4. What does a negative result from compare() mean?**
 
 The first object should come before the second according to that
 comparator.
 
-Medium
+### Medium
 
-5. Why use Comparator instead of Comparable?
+**5. Why use Comparator instead of Comparable?**
 
 When multiple sorting strategies are required without changing the
 domain class.
 
-6. What is Comparator.comparing()?
+**6. What is Comparator.comparing()?**
 
 It is a factory method that creates a comparator based on a key
 extracted from each object.
 
 Example:
 
+```java
 Comparator.comparing(Employee::getSalary)
+```
 
-7. What does thenComparing() do?
+**7. What does thenComparing() do?**
 
 It adds a secondary comparison rule when the previous comparison
 considers two objects equal.
 
-Hard
+### Hard
 
-8. What is the difference between natural and custom ordering?
+**8. What is the difference between natural and custom ordering?**
 
 Natural ordering is defined by the class through Comparable; custom
 ordering is supplied externally through Comparator.
 
-9. Why is Double.compare() preferred for comparing doubles?
+**9. Why is Double.compare() preferred for comparing doubles?**
 
 It provides a proper comparison result while handling floating-point
 comparison semantics better than naïve subtraction.
 
 Prefer:
 
+```java
 Double.compare(e1.getSalary(), e2.getSalary());
+```
 
 instead of:
 
+```java
 (int)(e1.getSalary() - e2.getSalary());
+```
 
-10. Explain this:
+**10. Explain this:**
 
+```java
 employees.sort(
         Comparator.comparing(Employee::getSalary)
                 .thenComparing(Employee::getName)
 );
+```
 
 Answer:
 
 Employees are first sorted by salary. If two employees have the same
 salary, their names are compared to determine their relative order.
 
-🧭 17. Day 15 Learning Path
+**11. What's the difference between `.thenComparing(B).reversed()` and `.reversed().thenComparing(B)`?**
 
+`.thenComparing(B).reversed()` reverses the whole combined comparator —
+both the primary key and the tie-break are flipped together. `.reversed()`
+placed before `.thenComparing(B)` reverses only the comparator it's
+directly attached to; anything chained afterward keeps its own natural
+direction. Placement matters because `reversed()` only affects the
+comparator instance it's called on at that point in the chain, not the
+comparator that hasn't been built yet.
+
+## 🧭 17. Day 15 Learning Path
+
+```
 Generics
    ↓
 Generic Classes
@@ -769,86 +955,88 @@ Method References
 Multi-Level Sorting
    ↓
 Real-World Employee Sorting
+```
 
-💡 18. Key Takeaways
+## 💡 18. Key Takeaways
 
-Generics provide compile-time type safety.
-
-<T> represents a type parameter.
-
-? represents an unknown type.
-
-? extends T is commonly used for producers.
-
-? super T is commonly used for consumers.
-
-Comparable defines natural ordering.
-
-Comparator defines custom ordering.
-
-compare() returns a negative, zero, or positive value based on
-ordering.
-
-Comparator.comparing() reduces comparison boilerplate.
-
-Employee::getSalary is a method reference.
-
-thenComparing() creates multi-level sorting.
-
-reversed() can be used for descending order.
+- Generics provide compile-time type safety.
+- `<T>` represents a type parameter.
+- `?` represents an unknown type.
+- `? extends T` is commonly used for producers.
+- `? super T` is commonly used for consumers.
+- Comparable defines natural ordering.
+- Comparator defines custom ordering.
+- `compare()` returns a negative, zero, or positive value based on
+  ordering.
+- `Comparator.comparing()` reduces comparison boilerplate.
+- `Employee::getSalary` is a method reference.
+- `thenComparing()` creates multi-level sorting.
+- `reversed()` can be used for descending order — but where you place
+  it in the chain determines whether it reverses one key or the entire
+  combined ordering.
 
 These concepts are heavily used with Java Collections and backend
 business logic.
 
-🚀 Practice Tasks
+## 🚀 Practice Tasks
 
-Task 1
+**Task 1**
 
 Sort employees by salary in ascending order.
 
-Task 2
+**Task 2**
 
 Sort employees by salary in descending order.
 
-Task 3
+**Task 3**
 
 Sort employees alphabetically by name.
 
-Task 4
+**Task 4**
 
 Sort employees by joining date.
 
-Task 5
+**Task 5**
 
 Sort by salary and then name.
 
-Task 6
+**Task 6**
 
 Sort by salary descending, then name ascending.
 
-Task 7
+**Task 7**
 
-Create an Employee class implementing Comparable<Employee> and
+Create an Employee class implementing `Comparable<Employee>` and
 define salary as its natural ordering.
 
-Task 8
+**Task 8**
 
-Create three separate Comparator<Employee> strategies:
+Create three separate `Comparator<Employee>` strategies:
 
+```
 SalaryComparator
 NameComparator
 JoiningDateComparator
+```
 
-Task 9
+**Task 9**
 
 Rewrite an anonymous Comparator using a lambda.
 
-Task 10
+**Task 10**
 
-Rewrite a lambda comparator using Comparator.comparing().
+Rewrite a lambda comparator using `Comparator.comparing()`.
 
-📁 Suggested Day 15 Structure
+**Task 11**
 
+Write two versions of a salary + name comparator — one where
+`reversed()` flips the entire chain, and one where it flips only the
+salary key. Print both outputs and confirm they produce different
+orderings for employees who share a salary.
+
+## 📁 Suggested Day 15 Structure
+
+```
 day-15/
 └── src/
     ├── Generics/
@@ -869,36 +1057,25 @@ day-15/
         ├── LowerBoundInheritance.java
         ├── UpperBoundExample.java
         └── WildcardExample.java
+```
 
-🏆 Day 15 Completion Checklist
+## 🏆 Day 15 Completion Checklist
 
-Generic classes
-
-Generic methods
-
-Generic interfaces
-
-Wildcards
-
-Upper bounds
-
-Lower bounds
-
-Comparable
-
-Comparator
-
-Lambda expressions with Comparator
-
-Method references
-
-Comparator.comparing()
-
-thenComparing()
-
-Sorting custom objects
-
-Employee sorting practice
+- [ ] Generic classes
+- [ ] Generic methods
+- [ ] Generic interfaces
+- [ ] Wildcards
+- [ ] Upper bounds
+- [ ] Lower bounds
+- [ ] Comparable
+- [ ] Comparator
+- [ ] Lambda expressions with Comparator
+- [ ] Method references
+- [ ] Comparator.comparing()
+- [ ] thenComparing()
+- [ ] reversed() placement (whole-chain vs single-key)
+- [ ] Sorting custom objects
+- [ ] Employee sorting practice
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220">
 
