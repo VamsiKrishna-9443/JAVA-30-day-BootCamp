@@ -1077,70 +1077,6 @@ day-15/
 - [ ] Sorting custom objects
 - [ ] Employee sorting practice
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220">
-
-<defs>
-  <linearGradient id="g" x1="0" x2="1">
-    <stop offset="0%" stop-color="#22c55e"/>
-    <stop offset="50%" stop-color="#06b6d4"/>
-    <stop offset="100%" stop-color="#8b5cf6"/>
-  </linearGradient>
-</defs>
-
-<rect width="1200" height="220" rx="28" fill="#0b1020"/>
-
-<circle cx="105" cy="110" r="52"
-     fill="none"
-     stroke="url(#g)"
-     stroke-width="7"
-     stroke-dasharray="12 10">
-<animateTransform
- attributeName="transform"
- type="rotate"
- from="0 105 110"
- to="360 105 110"
- dur="6s"
- repeatCount="indefinite"/>
-</circle>
-
-<path d="M78 110 l18 18 l38 -45"
-   fill="none"
-   stroke="#4ade80"
-   stroke-width="9"
-   stroke-linecap="round"
-   stroke-linejoin="round">
-<animate
- attributeName="stroke-dasharray"
- from="0,100"
- to="100,0"
- dur="1.2s"
- fill="freeze"/>
-</path>
-
-<text x="190" y="100"
-   font-family="Arial, sans-serif"
-   font-size="38"
-   font-weight="700"
-   fill="#ffffff">
-DAY 15 COMPLETE
-</text>
-
-<text x="190" y="145"
-   font-family="Arial, sans-serif"
-   font-size="23"
-   fill="#b9c7e6">
-Generics mastered • Sorting logic practiced • Git-ready
-</text>
-
-<text x="190" y="180"
-   font-family="Arial, sans-serif"
-   font-size="17"
-   fill="#7dd3fc">
-Next stop: Day 16 → keep building.
-</text>
-
-</svg>
-
 <div align="center">
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" width="100%" role="img" aria-label="Day 15 complete animation">
@@ -1180,17 +1116,25 @@ Next stop: Day 16 → keep building.
    stroke-linejoin="round"
    stroke-dasharray="0 120">
 <animate attributeName="stroke-dasharray"
-        values="0 120;120 0;120 0"
-        dur="2.2s"
-        repeatCount="indefinite"/>
+        from="0 120"
+        to="120 0"
+        dur="1s"
+        fill="freeze"/>
 </path>
 
 <text x="215" y="105"
    font-family="Arial, sans-serif"
    font-size="42"
    font-weight="800"
-   fill="#ffffff">
+   fill="#ffffff"
+   opacity="0">
 DAY 15 COMPLETE
+<animate attributeName="opacity"
+        from="0"
+        to="1"
+        begin="0.4s"
+        dur="0.8s"
+        fill="freeze"/>
 </text>
 
 <text x="215" y="148"
