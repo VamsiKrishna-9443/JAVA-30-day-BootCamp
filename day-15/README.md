@@ -2,7 +2,6 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,100:22c55e&height=220&section=header&text=Day%2015%20%7C%20Generics%20%26%20Sorting&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Generics%20%E2%86%92%20Wildcards%20%E2%86%92%20Comparable%20%E2%86%92%20Comparator%20%E2%86%92%20Multi-Level%20Sorting&descAlignY=58&descAlign=50" width="100%"/>
 
 ![Java](https://img.shields.io/badge/Java-17+-orange?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Day](https://img.shields.io/badge/Day-15%2F30-blue?style=for-the-badge)
