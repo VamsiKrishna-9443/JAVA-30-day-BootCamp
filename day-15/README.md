@@ -1,11 +1,4 @@
-I see what happened — my explanatory sentence about the shields.io fix got pasted into the README itself and committed to GitHub, sitting right above the H1 heading. That's the actual bug in your file right now, not a banner problem this time.
 
-You have two separate things going on across your commits, so let's fix both cleanly:
-
-1. **The stray text** — "I see the same broken-image icon..." is literally in your README as content and needs to be deleted.
-2. **The banner** — you want the capsule-render waving banner back (not the shields.io-only version), so I'll restore that at the top.
-
-Here's the corrected file with the capsule-render banner restored and the accidental explanation text removed:
 
 <div align="center">
 
