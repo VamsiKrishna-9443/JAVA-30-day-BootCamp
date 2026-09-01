@@ -1,8 +1,15 @@
-I see the same broken-image icon at the top — the `capsule-render.vercel.app` banner isn't loading again, same as what happened on Day 18. Here's the fix, swapped to the reliable shields.io-only header format:
+I see what happened — my explanatory sentence about the shields.io fix got pasted into the README itself and committed to GitHub, sitting right above the H1 heading. That's the actual bug in your file right now, not a banner problem this time.
+
+You have two separate things going on across your commits, so let's fix both cleanly:
+
+1. **The stray text** — "I see the same broken-image icon..." is literally in your README as content and needs to be deleted.
+2. **The banner** — you want the capsule-render waving banner back (not the shields.io-only version), so I'll restore that at the top.
+
+Here's the corrected file with the capsule-render banner restored and the accidental explanation text removed:
 
 <div align="center">
 
-# 🧬 Day 15: Generics & Object Sorting
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,100:22c55e&height=220&section=header&text=Day%2015%20%7C%20Generics%20%26%20Sorting&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Generics%20%E2%86%92%20Wildcards%20%E2%86%92%20Comparable%20%E2%86%92%20Comparator%20%E2%86%92%20Multi-Level%20Sorting&descAlignY=58&descAlign=50" width="100%"/>
 
 ![Java](https://img.shields.io/badge/Java-17+-orange?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Day](https://img.shields.io/badge/Day-15%2F30-blue?style=for-the-badge)
@@ -581,10 +588,14 @@ From type-safe generics and object sorting into **Lambda Expressions** — funct
 
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:22c55e,100:8b5cf6&height=150&section=footer&animation=fadeIn"/>
 
 <div align="center">
 
 ⭐ **Part of the [JAVA-30-day-BootCamp](../../) series** ⭐
 
 </div>
+
+---
+
+**One heads-up before you paste this in:** `capsule-render.vercel.app` is a free third-party service, and it has genuinely been intermittent for you across Day 15, 17, and 18 — that's why it broke again even after working once. If it fails to load again after this fix, it's the service having a moment, not something wrong with your markdown. Replace your entire `day-15/README.md` with the block above (delete the old content first, don't append) so the stray sentence doesn't linger in the file.
