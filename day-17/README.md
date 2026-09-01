@@ -9,7 +9,6 @@
 
 <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&duration=2800&pause=900&color=2ECC71&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=90&lines=employees.stream();.filter(e+-%3E+e.getSalary()+%3E+60000);.map(Employee%3A%3AgetName);.collect(Collectors.toList())%3B" alt="Streams Pipeline Typing Animation" />
 
-<img src="https://progress-bar.dev/56/?width=500&color=babaca&title=Day%2017%20of%2030" alt="progress bar"/>
 
 </div>
 
