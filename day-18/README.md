@@ -1,14 +1,15 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2ECC71,100:3498DB&height=220&section=header&text=Day%2018%20%7C%20Optional%20%26%20java.time&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Optional%20%E2%86%92%20LocalDate%20%E2%86%92%20LocalDateTime%20%E2%86%92%20Duration%20%E2%86%92%20Period&descAlignY=58&descAlign=50" width="100%"/>
+# 📅 Day 18: Optional, LocalDate & Time API
 
 ![Java](https://img.shields.io/badge/Java-17+-orange?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Day](https://img.shields.io/badge/Day-18%2F30-blue?style=for-the-badge)
 ![Topic](https://img.shields.io/badge/Topic-Optional%20%7C%20java.time-brightgreen?style=for-the-badge)
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=3498DB&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=90&lines=Optional%3CString%3E+u+%3D+Optional.of(name)%3B;Period.between(joinDate%2C+today)%3B;Duration.between(now%2C+expiry)%3B" alt="Optional and Time Typing Animation" />
+### 🎯 Today's Mission
+**Master `Optional`, `LocalDate`, `LocalDateTime`, `Duration`, and `Period` — then use them to build two real, working calculators.**
 
-<img src="https://progress-bar.dev/60/?width=500&color=babaca&title=Day%2018%20of%2030" alt="progress bar"/>
+![Progress](https://img.shields.io/badge/Progress-18%2F30%20Days%20(60%25)-success?style=for-the-badge)
 
 </div>
 
@@ -92,7 +93,7 @@ String employeeValue1 = employee1.orElseThrow();
 | Class | Represents | Example |
 |---|---|---|
 | `LocalDate` | Date only (no time) | `2026-09-01` |
-| `LocalDateTime` | Date + time | `2026-09-01T15:45:00` |
+| `LocalDateTime` | Date + time | `2026-09-01T15:50:00` |
 
 ### Common operations
 
@@ -189,7 +190,7 @@ java Optional.OptionalExample
 
 <div align="center">
 
-![Progress](https://progress-bar.dev/100/?width=500&color=2ecc71&title=Day%2018%20complete)
+![Complete](https://img.shields.io/badge/Day%2018-Complete%20✅-success?style=for-the-badge)
 
 </div>
 
@@ -208,7 +209,7 @@ Moving from `java.time` into the next chapter of the bootcamp.
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3498DB,100:2ECC71&height=150&section=footer&animation=fadeIn"/>
+---
 
 <div align="center">
 
