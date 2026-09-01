@@ -1,6 +1,8 @@
+I see the same broken-image icon at the top — the `capsule-render.vercel.app` banner isn't loading again, same as what happened on Day 18. Here's the fix, swapped to the reliable shields.io-only header format:
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,100:22c55e&height=220&section=header&text=Day%2015%20%7C%20Generics%20%26%20Sorting&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Generics%20%E2%86%92%20Wildcards%20%E2%86%92%20Comparable%20%E2%86%92%20Comparator%20%E2%86%92%20Multi-Level%20Sorting&descAlignY=58&descAlign=50" width="100%"/>
+# 🧬 Day 15: Generics & Object Sorting
 
 ![Java](https://img.shields.io/badge/Java-17+-orange?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Day](https://img.shields.io/badge/Day-15%2F30-blue?style=for-the-badge)
@@ -579,7 +581,7 @@ From type-safe generics and object sorting into **Lambda Expressions** — funct
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:22c55e,100:8b5cf6&height=150&section=footer&animation=fadeIn"/>
+---
 
 <div align="center">
 
