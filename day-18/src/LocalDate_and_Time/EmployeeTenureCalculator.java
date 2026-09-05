@@ -40,6 +40,7 @@ public class EmployeeTenureCalculator {
 
         LocalDateTime end = LocalDateTime.of(2026, 9, 1, 17, 30);
 
+        //Calculates the time period in hours minutes and seconds ,nanoseconds
         Duration workingTime = Duration.between(start, end);
 
         System.out.println("Working Time: " + workingTime.toHours() + " Hours " + (workingTime.toMinutes() % 60) + " Minutes");
