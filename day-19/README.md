@@ -13,27 +13,13 @@
 
 </div>
 
-```text
-   ┌─────────────────────────────────┐
-   │  ⚡ INITIALIZING DAY 19 ⚡        │
-   └─────────────────────────────────┘
-         ▓ ░░░░░░░░░░░░░░░░░░░  5%
-         ▓▓▓▓ ░░░░░░░░░░░░░░░  25%
-         ▓▓▓▓▓▓▓▓▓ ░░░░░░░░░  55%
-         ▓▓▓▓▓▓▓▓▓▓▓▓▓▓ ░░░░  80%
-         ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 100%
-
-   ╔═══════════════════════════════════╗
-   ║        🚀  DAY 19 START  🚀        ║
-   ║  Path · Files · Buffered I/O       ║
-   ║  Serialization · Employee CSV      ║
-   ║              System                ║
-   ╚═══════════════════════════════════╝
-        [ Modules Loaded: 5 / 5 ]
-        [ Status: READY TO LEARN ]
-```
-
----
+![](https://img.shields.io/badge/⚡-INITIALIZING-orange?style=for-the-badge)
+![](https://img.shields.io/badge/Path-✓-brightgreen?style=flat-square)
+![](https://img.shields.io/badge/Files-✓-brightgreen?style=flat-square)
+![](https://img.shields.io/badge/BufferedIO-✓-brightgreen?style=flat-square)
+![](https://img.shields.io/badge/Serialization-✓-brightgreen?style=flat-square)
+![](https://img.shields.io/badge/CSV_System-✓-brightgreen?style=flat-square)
+![](https://img.shields.io/badge/🚀-DAY_19_START-blue?style=for-the-badge)
 
 ## 📖 Table of Contents
 - [Why This Day Matters](#-why-this-day-matters)
