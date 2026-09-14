@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:F7A41D,100:4B8BBE&height=200&section=header&text=Day%2021%20-%20JDBC%20%26%20SQL%20Basics&fontSize=36&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=PreparedStatement%20%7C%20ResultSet%20%7C%20Employee%20CRUD&descAlignY=55&descSize=18" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:F7A41D,100:4B8BBE&height=180&section=header&text=Day%2021%20-%20JDBC%20%26%20SQL%20Basics&fontSize=32&fontColor=ffffff&animation=fadeIn" width="100%"/>
 </p>
 
 <p align="center">
