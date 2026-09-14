@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:F7A41D,100:4B8BBE&height=180&section=header&text=Day%2021%20-%20JDBC%20%26%20SQL%20Basics&fontSize=32&fontColor=ffffff&animation=fadeIn" width="100%"/>
-</p>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=F7A41D&center=true&vCenter=true&width=700&lines=Connecting+Java+to+MySQL+with+JDBC;Statement+vs+PreparedStatement;ResultSet+%7C+CRUD+Operations;Parameterized+Queries+Only+%F0%9F%94%92" alt="Typing SVG" />
@@ -18,6 +15,7 @@
 </p>
 
 ---
+<img width="1472" height="748" alt="image" src="https://github.com/user-attachments/assets/f3bea5b7-6491-4988-b692-e083e54142ef" />
 
 ## 📑 Table of Contents
 - [Overview](#-overview)
