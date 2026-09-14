@@ -1,604 +1,261 @@
-<!-- ========================================================= -->
-<!--                JAVA 30-DAY BOOTCAMP README                 -->
-<!-- ========================================================= -->
+# ☕ Java 30-Day Developer Bootcamp
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=220&section=header&text=JAVA%2030-DAY%20BOOTCAMP&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Learn%20%E2%80%A2%20Code%20%E2%80%A2%20Solve%20%E2%80%A2%20Build&descAlignY=58&descSize=18" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=220&section=header&text=JAVA%2030-DAY%20BOOTCAMP&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Learn%20%E2%80%A2%20Code%20%E2%80%A2%20Solve%20%E2%80%A2%20Build&descAlignY=58&descSize=18" alt="Java 30-Day Bootcamp">
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=22&duration=2800&pause=900&color=00D9FF&center=true&vCenter=true&width=850&lines=Java+Developer+Journey+%F0%9F%9A%80;Day+12+%E2%9C%85+Completed;Core+Java+%E2%86%92+OOP+%E2%86%92+Collections+%E2%86%92+Exceptions;Building+Backend+Skills+One+Day+at+a+Time+%F0%9F%94%A5" alt="Typing animation" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=22&duration=2800&pause=900&color=00D9FF&center=true&vCenter=true&width=900&lines=Java+Developer+Journey+%F0%9F%9A%80;Day+24+%E2%9C%85+Completed;Core+Java+%E2%86%92+OOP+%E2%86%92+Collections+%E2%86%92+Concurrency;JDBC+%E2%86%92+Maven+%E2%86%92+Spring+Boot;Building+Backend+Skills+One+Day+at+a+Time+%F0%9F%94%A5" alt="Typing animation">
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Java-17%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/Progress-12%2F30-00C853?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Completion-40%25-00D9FF?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Status-Day%2012%20Completed-00C853?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Java-17%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java 17+">
+  <img src="https://img.shields.io/badge/Progress-24%2F30-00C853?style=for-the-badge" alt="24 of 30 days complete">
+  <img src="https://img.shields.io/badge/Completion-80%25-00D9FF?style=for-the-badge" alt="80 percent complete">
+  <img src="https://img.shields.io/badge/Status-Day%2024%20Completed-00C853?style=for-the-badge" alt="Day 24 completed">
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=VamsiKrishna-9443&label=Repository%20Views&color=0e75b6&style=for-the-badge" alt="Repository views" />
-</p>
+> **A focused 30-day journey from Java fundamentals to practical backend development with Spring Boot.**
+
+This repository documents my hands-on progress through a structured Java Developer Bootcamp. The learning path moves from **Core Java and problem solving** into **OOP, Collections, Modern Java, concurrency, JDBC, Maven, and Spring Boot fundamentals**, with practical coding and GitHub-based progress tracking.
 
 ---
 
-## 🚀 About the Bootcamp
+## 📚 Table of Contents
 
-> **A 30-day focused journey to build strong Java fundamentals, problem-solving ability, and backend development skills.**
+- [🚀 Bootcamp Overview](#-bootcamp-overview)
+- [📊 Current Progress](#-current-progress)
+- [🗺️ Learning Path](#️-learning-path)
+- [✅ Completed Days](#-completed-days)
+  - [Week 1 — Java Fundamentals & Problem Solving](#week-1--java-fundamentals--problem-solving)
+  - [Week 2 — OOP, Exceptions & Collections](#week-2--oop-exceptions--collections)
+  - [Week 3 — Modern Java, Files & Concurrency](#week-3--modern-java-files--concurrency)
+  - [Week 4 — DSA, JDBC, Maven & Spring Boot](#week-4--dsa-jdbc-maven--spring-boot)
+- [📂 Repository Structure](#-repository-structure)
+- [🧠 Learning Workflow](#-learning-workflow)
+- [📈 Skill Progress](#-skill-progress)
+- [🎯 Remaining Days](#-remaining-days)
+- [🏆 Final Evaluation](#-final-evaluation)
+- [🎯 Final Goals](#-final-goals)
+- [👨‍💻 About Me](#-about-me)
 
-This repository documents my progress as I move from **Core Java fundamentals** toward **Spring Boot and REST API development**.
+---
 
-### 🎯 Learning Path
+## 🚀 Bootcamp Overview
+
+### Goal
+
+Build a strong foundation for **Java backend development** by combining:
+
+- Java fundamentals and clean coding
+- Object-oriented programming
+- Problem solving and complexity analysis
+- Collections and modern Java features
+- Multithreading and concurrency
+- SQL and JDBC
+- Maven
+- Spring Boot and REST API development
+- Practical projects and Git/GitHub workflow
+
+### Learning Approach
+
+Each day follows a practical learning cycle:
 
 ```text
-┌──────────────────────────────────────────────────────────────────────┐
-│                         JAVA DEVELOPER PATH                           │
-├──────────────────────────────────────────────────────────────────────┤
-│                                                                      │
-│  Core Java  →  Problem Solving  →  OOP  →  Collections              │
-│       ↓              ↓              ↓            ↓                   │
-│  Modern Java  →  Concurrency  →  JDBC / SQL  →  Spring Boot         │
-│       ↓              ↓              ↓            ↓                   │
-│                 REST APIs  →  Backend Architecture                   │
-│                                                                      │
-└──────────────────────────────────────────────────────────────────────┘
+Learn Concepts
+      ↓
+Understand the "Why"
+      ↓
+Write Code
+      ↓
+Solve Exercises
+      ↓
+Analyze Complexity / Behavior
+      ↓
+Test & Verify
+      ↓
+Commit to GitHub
 ```
 
-### 🧭 My Goal
+The bootcamp is designed around the principle:
 
-Become a strong **Java Backend Developer** by consistently:
-
-- 🧠 Understanding concepts deeply
-- 💻 Writing clean Java code
-- 🧩 Solving programming problems
-- ⚡ Improving algorithm efficiency
-- 📊 Analyzing time and space complexity
-- 🏗️ Building practical applications
-- 🚀 Progressing toward Spring Boot and REST APIs
+> **Learn → Understand → Code → Solve → Analyze → Improve → Build**
 
 ---
 
-# 📊 Bootcamp Progress
+## 📊 Current Progress
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Days%20Completed-12%20%2F%2030-00C853?style=for-the-badge&logo=checkmarx&logoColor=white" />
-  <img src="https://img.shields.io/badge/Remaining-18%20Days-607D8B?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Completion-40%25-00D9FF?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Days%20Completed-24%20%2F%2030-00C853?style=for-the-badge&logo=checkmarx&logoColor=white" alt="24 of 30 days completed">
+  <img src="https://img.shields.io/badge/Remaining-6%20Days-607D8B?style=for-the-badge" alt="6 days remaining">
+  <img src="https://img.shields.io/badge/Completion-80%25-00D9FF?style=for-the-badge" alt="80 percent complete">
 </p>
 
-<p align="center">
-  <img src="https://progress-bar.dev/40/?scale=100&title=BOOTCAMP%20PROGRESS&width=800&color=00C853&suffix=%25" alt="40 percent progress" />
-</p>
+```text
+BOOTCAMP PROGRESS
 
-> 🚀 **12 / 30 days completed — 40% of the bootcamp completed!**
-> <img width="1400" height="520" alt="bootcamp-progress-day12" src="https://github.com/user-attachments/assets/b76ec7ae-8606-44b4-9b35-8cf4a1e6bda2" />
+Completed  ████████████████████░░░░░  24 / 30  →  80%
+Remaining  ░░░░░░░░░░░░░░░░░░░░░░░░░   6 days
+```
 
+### 🎉 Current Milestone
 
-<p align="center">
-  <img src="./bootcamp-progress-day12.gif" alt="Animated Day 12 bootcamp progress" width="900" />
-</p>
+**Days 1–24 completed.**
 
+The journey has progressed from Java language fundamentals to:
+
+```text
+Core Java
+   ↓
+Problem Solving
+   ↓
+OOP
+   ↓
+Collections & Modern Java
+   ↓
+Concurrency
+   ↓
+SQL + JDBC
+   ↓
+Maven
+   ↓
+Spring Boot Fundamentals
+```
+
+Day 24 marks the transition into **backend application development with Maven and Spring Boot**. The next stage focuses on REST APIs, layered architecture, validation, JPA, and the final project.
+
+---
+
+## 🗺️ Learning Path
+
+```text
+┌───────────────────────────────────────────────────────────────┐
+│                     JAVA DEVELOPER PATH                       │
+├───────────────────────────────────────────────────────────────┤
+│                                                               │
+│  Core Java → Problem Solving → OOP → Collections              │
+│       ↓            ↓             ↓          ↓                  │
+│  Modern Java → Concurrency → JDBC / SQL → Maven               │
+│       ↓            ↓             ↓          ↓                  │
+│             Spring Boot → REST APIs → JPA                     │
+│                                  ↓                            │
+│                         Final Backend Project                 │
+│                                                               │
+└───────────────────────────────────────────────────────────────┘
+```
 
 ---
 
 # ✅ Completed Days
 
-| Day | Focus Area | Status |
+## Week 1 — Java Fundamentals & Problem Solving
+
+| Day | Focus | Status |
 |:---:|---|:---:|
-| 🟢 **01** | Java Setup, JVM, JDK, JRE, Variables & Data Types | ✅ Completed |
-| 🟢 **02** | Operators, Conditions & Loops | ✅ Completed |
-| 🟢 **03** | Methods, Arrays & Strings | ✅ Completed |
-| 🟢 **04** | Java Problem Solving I | ✅ Completed |
-| 🟢 **05** | Big-O, HashMap & Two-Pointer Problem Solving | ✅ Completed |
-| 🟢 **06** | Packages, Imports, Access Modifiers, `static` & `final` | ✅ Completed |
-| ⚪ **07** | Upcoming | 🔜 Next |
-| ⚪ **08–30** | Upcoming Java & Backend Topics | ⏳ Planned |
+| [Day 01](./day-01/) | Java Setup, JVM, JDK, JRE, Classes, Variables & Data Types | ✅ |
+| [Day 02](./day-02/) | Operators, Conditions & Loops | ✅ |
+| [Day 03](./day-03/) | Methods, Arrays & Strings | ✅ |
+| [Day 04](./day-04/) | Java Problem Solving I | ✅ |
+| [Day 05](./day-05/) | Big-O, HashMap & Two-Pointer Problem Solving | ✅ |
+| [Day 06](./day-06/) | Packages, Imports, Access Modifiers, `static` & `final` | ✅ |
+| [Day 07](./day-07/) | Week 1 Assessment | ✅ |
+
+### Week 1 Milestone
+
+Built the foundation for writing Java programs and started structured problem solving using reusable methods, arrays, strings, HashMap-based solutions, two-pointer techniques, and complexity analysis.
 
 ---
 
-# 📚 Days 07–12 — Progress Highlights
+## Week 2 — OOP, Exceptions & Collections
 
-### 🟢 Day 07 — Object-Oriented Programming & Inheritance
-- Classes and objects
-- Inheritance and reusable behavior
-- Parent-child relationships
-- Practical Java OOP programs
+| Day | Focus | Status |
+|:---:|---|:---:|
+| [Day 08](./day-08/) | Classes, Objects, Constructors & `this` | ✅ |
+| [Day 09](./day-09/) | Encapsulation & Inheritance | ✅ |
+| [Day 10](./day-10/) | Polymorphism, Abstraction & Interfaces | ✅ |
+| [Day 11](./day-11/) | `equals()`, `hashCode()` & Immutability | ✅ |
+| [Day 12](./day-12/) | Exception Handling & Custom Exceptions | ✅ |
+| [Day 13](./day-13/) | Collections Framework | ✅ |
+| [Day 14](./day-14/) | Console Library Management System | ✅ |
 
-### 🟢 Day 08 — Abstraction & Interfaces
-- Abstract classes
-- Abstract methods
-- Interfaces
-- Abstraction and implementation
-- Practical interface examples
+### Week 2 Milestone
 
-### 🟢 Day 09 — Core Java / OOP Practice
-- Consolidated Java and OOP concepts
-- Practical coding exercises
-- Applying concepts through small programs
-
-### 🟢 Day 10 — Object Methods & Java Practice
-- Object-level Java concepts
-- `toString()` and object representation
-- Practical object-oriented exercises
-
-### 🟢 Day 11 — `equals()` & `hashCode()`
-- Object equality
-- `==` vs `equals()`
-- `equals()` contract
-- `hashCode()` contract
-- Hash collisions
-- Employee equality
-- Employee objects in `HashSet`
-- Employee objects as `HashMap` keys
-
-### 🟢 Day 12 — Exception Handling
-- Exception hierarchy
-- Checked exceptions
-- Unchecked exceptions
-- `try`, `catch`, `finally`
-- Multiple `catch`
-- `throw` and `throws`
-- Custom exceptions
-- `InsufficientFundsException`
-- Bank Account exception-handling project
-
-> **Milestone:** Days 01–12 are now complete. The bootcamp has moved from Java fundamentals and problem solving into OOP, object equality, hashing, and robust exception handling.
+Moved from syntax-focused programming into **object-oriented application design**, exception handling, collections, and practical console-based application development.
 
 ---
 
-# 📅 Day 06 — Packages, Imports, Access Modifiers, `static` & `final`
+## Week 3 — Modern Java, Files & Concurrency
 
-<p align="center">
-  <img src="https://img.shields.io/badge/DAY%2006-COMPLETED-00C853?style=for-the-badge&logo=java&logoColor=white" />
-</p>
+| Day | Focus | Status |
+|:---:|---|:---:|
+| [Day 15](./day-15/) | Generics, `Comparable` & `Comparator` | ✅ |
+| [Day 16](./day-16/) | Lambda Expressions & Functional Interfaces | ✅ |
+| [Day 17](./day-17/) | Stream API | ✅ |
+| [Day 18](./day-18/) | `Optional` & Date/Time API | ✅ |
+| [Day 19](./day-19/) | File I/O & Serialization | ✅ |
+| [Day 20](./day-20/) | Multithreading & Concurrency | ✅ |
+| [Day 21](./day-21/) | Week 3 Assessment | ✅ |
 
-### 🎯 Objective
+### Week 3 Milestone
 
-Learn how Java organizes code into **packages**, imports reusable classes, controls visibility with **access modifiers**, and designs reusable utility classes using **`static`**, **`final`**, and **encapsulation**.
-
-### 🧠 Concepts Covered
-
-- 📦 Java Packages
-- 📥 `import` keyword
-- 🔐 Access Modifiers
-- 🌐 `public`
-- 🔒 `private`
-- 🛡️ `protected`
-- 📁 Default access
-- ⚡ `static` methods
-- ⚡ `static` variables
-- 🔒 `final` variables
-- 🚫 `final` methods
-- 🚫 `final` classes
-- 🛡️ Encapsulation
-- 🔑 Private constructors
-- 🧰 Utility class design
-
-### 🔐 Access Modifier Quick Reference
-
-| Modifier | Same Class | Same Package | Subclass | Everywhere |
-|:---:|:---:|:---:|:---:|:---:|
-| `private` | ✅ | ❌ | ❌ | ❌ |
-| default | ✅ | ✅ | ❌* | ❌ |
-| `protected` | ✅ | ✅ | ✅ | ❌* |
-| `public` | ✅ | ✅ | ✅ | ✅ |
-
-### ⚡ `static`
-
-`static` members belong to the **class**, not to individual objects.
-
-```java
-MathUtils.add(10, 20);
-```
-
-No object creation is required.
-
-### 🔒 `final`
-
-`final` prevents modification, overriding, or inheritance depending on its usage.
-
-```java
-public static final double PI = 3.14159;
-```
-
-### 🛡️ Encapsulation with Private Constructors
-
-Utility classes were designed so that unnecessary objects cannot be created:
-
-```java
-private StringUtils() {
-    // Prevent object creation
-}
-```
-
-This allows utility methods to be used directly:
-
-```java
-StringUtils.reverse("hello");
-```
+Developed modern Java skills including generics, functional programming, streams, date/time handling, file operations, serialization, and concurrency.
 
 ---
 
-## 🛠️ Day 06 Mini Project — Utility Packages
+## Week 4 — DSA, JDBC, Maven & Spring Boot
 
-```text
-day-06/
-│
-├── src/
-│   ├── utils/
-│   │   ├── MathUtils.java
-│   │   └── StringUtils.java
-│   │
-│   └── Management.java
-│
-├── test-output/
-└── README.md
-```
+| Day | Focus | Status |
+|:---:|---|:---:|
+| [Day 22](./day-22/) | HackerRank Java Challenge & DSA | ✅ |
+| [Day 23](./day-23/) | SQL & JDBC | ✅ |
+| [Day 24](./day-24/) | Maven & Spring Boot Fundamentals | ✅ |
 
-### `MathUtils`
+### Day 22 — HackerRank / DSA
 
-Implemented reusable static operations:
+Focused on applying Java problem-solving skills to:
 
-```text
-➕ add()
-➖ subtract()
-✖️ multiply()
-➗ divide()
-π  PI constant
-```
-
-### `StringUtils`
-
-Implemented reusable string operations:
-
-```text
-🔄 reverse()
-🔍 isPalindrome()
-🔢 countCharacters()
-🔠 toUpperCase()
-```
-
-### 💡 Key Design Pattern
-
-```text
-                Utility Class
-                     │
-          ┌──────────┴──────────┐
-          ↓                     ↓
-      MathUtils             StringUtils
-          │                     │
-      static methods        static methods
-          │                     │
-          └──────────┬──────────┘
-                     ↓
-             Private Constructor
-                     ↓
-            Prevent Object Creation
-```
-
----
-
-# 📚 Previous Days
-
-<details>
-<summary>📘 Day 01 — Java Setup & Basics</summary>
-
-### Concepts
-
-- JDK Installation
-- IDE Setup
-- Git & GitHub Configuration
-- JVM
-- JDK
-- JRE
-- Java Class Structure
-- `main()` Method
-- Variables
-- Data Types
-
-### Programs
-
-- Hello World
-- Sum of Two Numbers
-- Swap Two Numbers
-- Even / Odd Checker
-- Largest of 3 Numbers
-
-</details>
-
-<details>
-<summary>📗 Day 02 — Operators, Conditions & Loops</summary>
-
-### Concepts
-
-- Arithmetic Operators
-- Relational Operators
-- Logical Operators
-- `if / else`
-- `switch`
-- `for`
-- `while`
-- `do-while`
-
-### Programs
-
-- Grade Calculator
-- Leap Year Checker
-- Multiplication Table
-- Prime Number Checker
-- Factorial Program
-
-</details>
-
-<details>
-<summary>📙 Day 03 — Methods, Arrays & Strings</summary>
-
-### Concepts
-
-- Methods & Parameters
-- Return Values
-- Method Overloading
 - Arrays
-- String APIs
-- Reusable Method Design
+- Strings
+- Hash Maps
+- Recursion
+- Stack / Queue
+- Time and space complexity analysis
 
-### Programs
+### Day 23 — JDBC & SQL
 
-- Reverse String
-- Palindrome Checker
-- Character Frequency Counter
-- Max / Min in Array
-- Second Largest in Array
+Learned the foundation of connecting Java applications to relational databases using:
 
-</details>
+- SQL CRUD operations
+- JDBC
+- `Connection`
+- `Statement`
+- `PreparedStatement`
+- `ResultSet`
+- Parameterized queries
+- Employee CRUD application
 
-<details>
-<summary>📕 Day 04 — Java Problem Solving I</summary>
+### Day 24 — Maven & Spring Boot Fundamentals
 
-### Focus
+Started the backend development phase with:
 
-Applying Java fundamentals to common programming problems while learning to explain the approach and complexity.
+- Maven project structure
+- Maven dependencies
+- Spring Boot application setup
+- `@SpringBootApplication`
+- `@RestController`
+- `@GetMapping`
+- Creating and testing basic REST endpoints
+- Introduction to Dependency Injection (DI) and Inversion of Control (IoC)
 
-### Problems
+### 🚀 Major Milestone
 
-- ✅ FizzBuzz
-- ✅ Sum of Digits
-- ✅ Armstrong Number
-- ✅ Anagram
-- ✅ Missing Number
-- ✅ Duplicates
+**Day 24 is the first major backend-development milestone of the bootcamp.**
 
-### Problem-Solving Workflow
-
-```text
-Understand
-    ↓
-Build Approach
-    ↓
-Implement
-    ↓
-Test
-    ↓
-Analyze Complexity
-    ↓
-Optimize
-```
-
-</details>
-
-<details>
-<summary>📓 Day 05 — Java Problem Solving II</summary>
-
-### Concepts
-
-- Big-O Notation
-- Time Complexity
-- Space Complexity
-- HashMap
-- Frequency Counting
-- Two-Pointer Approach
-- Brute Force vs Optimized Solutions
-- Time-Space Trade-offs
-
-### Problems
-
-- ✅ Two Sum
-- ✅ First Unique Character
-- ✅ Balanced Brackets
-- ✅ Frequency Counter
-- ✅ Longest Word
-
-### Key Techniques
-
-**HashMap**
-
-```text
-Lookup      → Average O(1)
-Insertion   → Average O(1)
-```
-
-**Two-Pointer**
-
-```text
-left  → ---------------- ← right
-```
-
-</details>
+The learning path has now moved from standalone Java programs toward building applications with the Spring Boot ecosystem.
 
 ---
 
-# 🗺️ 30-Day Roadmap
-
-## 🔹 Week 1 — Java Fundamentals & Problem Solving
-
-- [x] Java Basics
-- [x] Operators & Loops
-- [x] Methods, Arrays & Strings
-- [x] FizzBuzz
-- [x] Armstrong Number
-- [x] Anagram
-- [x] Missing Number
-- [x] Duplicate Detection
-- [x] Big-O & Complexity Analysis
-- [x] HashMap Approaches
-- [x] Two-Pointer Approaches
-- [x] Packages & Imports
-- [x] Access Modifiers
-- [x] `static` & `final`
-- [x] Utility Class Design
-- [ ] Week 1 Assessment
-
-## 🔹 Week 2 — OOP, Exceptions & Collections
-
-- [x] Classes & Objects
-- [x] Encapsulation & Inheritance
-- [x] Polymorphism & Interfaces
-- [x] `equals()` & `hashCode()`
-- [x] Exception Handling
-- [ ] Collections Framework
-- [ ] Console Library Management System
-
-## 🔹 Week 3 — Modern Java
-
-- [ ] Generics & Sorting
-- [ ] Lambda Expressions
-- [ ] Stream API
-- [ ] Optional & Date/Time API
-- [ ] File I/O & Serialization
-- [ ] Multithreading & Concurrency
-
-## 🔹 Week 4 — Backend Development
-
-- [ ] HackerRank Challenges
-- [ ] JDBC & SQL
-- [ ] Maven
-- [ ] Spring Boot Fundamentals
-- [ ] REST APIs
-- [ ] Layered Architecture
-- [ ] Validation & Exception Handling
-- [ ] Spring Data JPA
-- [ ] Final Backend Project
-
----
-
-# 📈 Skill Progress
-
-```text
-CORE JAVA
-████████████████████  100%
-
-PROBLEM SOLVING
-████████████████████  100%
-
-BIG-O ANALYSIS
-████████████████████  100%
-
-HASHMAP
-████████████████████  100%
-
-TWO-POINTER
-████████████████████  100%
-
-PACKAGES & IMPORTS
-████████████████████  100%
-
-ACCESS MODIFIERS
-████████████████████  100%
-
-STATIC & FINAL
-████████████████████  100%
-
-ENCAPSULATION
-████████████████████  100%
-
-OOP
-████████████████████  100%
-
-EQUALITY & HASHING
-████████████████████  100%
-
-EXCEPTION HANDLING
-████████████████████  100%
-
-COLLECTIONS
-░░░░░░░░░░░░░░░░░░░░    0%
-
-STREAMS
-░░░░░░░░░░░░░░░░░░░░    0%
-
-CONCURRENCY
-░░░░░░░░░░░░░░░░░░░░    0%
-
-SPRING BOOT
-░░░░░░░░░░░░░░░░░░░░    0%
-
-REST APIs
-░░░░░░░░░░░░░░░░░░░░    0%
-```
-
----
-
-# 🔥 Consistency Tracker
-
-```text
-Day 01  ██████████ 100%  ✅
-Day 02  ██████████ 100%  ✅
-Day 03  ██████████ 100%  ✅
-Day 04  ██████████ 100%  ✅
-Day 05  ██████████ 100%  ✅
-Day 06  ██████████ 100%  ✅
-Day 07  ██████████ 100%  ✅
-Day 08  ██████████ 100%  ✅
-Day 09  ██████████ 100%  ✅
-Day 10  ██████████ 100%  ✅
-Day 11  ██████████ 100%  ✅
-Day 12  ██████████ 100%  ✅
-Day 13  ░░░░░░░░░░   0%  ⏳
-Day 14  ░░░░░░░░░░   0%  ⏳
-...
-Day 30  ░░░░░░░░░░   0%  ⏳
-```
-
----
-
-# 🧠 Daily Learning Loop
-
-```text
-        ┌──────────────┐
-        │    LEARN     │
-        └──────┬───────┘
-               ↓
-        ┌──────────────┐
-        │  UNDERSTAND  │
-        └──────┬───────┘
-               ↓
-        ┌──────────────┐
-        │     CODE     │
-        └──────┬───────┘
-               ↓
-        ┌──────────────┐
-        │    SOLVE     │
-        └──────┬───────┘
-               ↓
-        ┌──────────────┐
-        │   ANALYZE    │
-        └──────┬───────┘
-               ↓
-        ┌──────────────┐
-        │   OPTIMIZE   │
-        └──────┬───────┘
-               ↓
-        ┌──────────────┐
-        │    COMMIT    │
-        └──────┬───────┘
-               │
-               └──────────→ REPEAT 🔥
-```
-
----
-
-# 📁 Repository Structure
+# 📂 Repository Structure
 
 ```text
 JAVA-30-day-BootCamp/
@@ -609,13 +266,24 @@ JAVA-30-day-BootCamp/
 ├── day-04/
 ├── day-05/
 ├── day-06/
-│   ├── src/
-│   │   ├── utils/
-│   │   │   ├── MathUtils.java
-│   │   │   └── StringUtils.java
-│   │   └── Management.java
-│   ├── test-output/
-│   └── README.md
+├── day-07/
+├── day-08/
+├── day-09/
+├── day-10/
+├── day-11/
+├── day-12/
+├── day-13/
+├── day-14/
+├── day-15/
+├── day-16/
+├── day-17/
+├── day-18/
+├── day-19/
+├── day-20/
+├── day-21/
+├── day-22/
+├── day-23/
+├── day-24/
 │
 ├── assessments/
 ├── week-1/
@@ -624,9 +292,163 @@ JAVA-30-day-BootCamp/
 └── final-project/
 ```
 
+### Recommended Day Structure
+
+```text
+day-XX/
+│
+├── src/
+├── test-output/
+└── README.md
+```
+
+Each day should document:
+
+- Concepts learned
+- Programs / exercises completed
+- Problems faced
+- Solutions and important observations
+- Complexity analysis where applicable
+- Verification evidence
+- Git / GitHub progress
+
 ---
 
-# 🏆 Bootcamp Evaluation Focus
+# 🧠 Learning Workflow
+
+```text
+       ┌──────────────┐
+       │    LEARN     │
+       └──────┬───────┘
+              ↓
+       ┌──────────────┐
+       │  UNDERSTAND  │
+       └──────┬───────┘
+              ↓
+       ┌──────────────┐
+       │     CODE     │
+       └──────┬───────┘
+              ↓
+       ┌──────────────┐
+       │    SOLVE     │
+       └──────┬───────┘
+              ↓
+       ┌──────────────┐
+       │    TEST      │
+       └──────┬───────┘
+              ↓
+       ┌──────────────┐
+       │   ANALYZE    │
+       └──────┬───────┘
+              ↓
+       ┌──────────────┐
+       │   COMMIT     │
+       └──────┬───────┘
+              ↓
+          REPEAT 🔥
+```
+
+---
+
+# 📈 Skill Progress
+
+| Skill Area | Status |
+|---|:---:|
+| Core Java Fundamentals | ✅ Completed |
+| Problem Solving | ✅ Completed |
+| Big-O / Complexity Analysis | ✅ Completed |
+| OOP | ✅ Completed |
+| `equals()` / `hashCode()` | ✅ Completed |
+| Exception Handling | ✅ Completed |
+| Collections | ✅ Completed |
+| Generics | ✅ Completed |
+| Lambda Expressions | ✅ Completed |
+| Stream API | ✅ Completed |
+| Optional / Date-Time | ✅ Completed |
+| File I/O / Serialization | ✅ Completed |
+| Multithreading / Concurrency | ✅ Completed |
+| SQL / JDBC | ✅ Completed |
+| Maven | ✅ Completed |
+| Spring Boot Fundamentals | ✅ Completed |
+| REST APIs | ⏳ Next |
+| Layered Architecture | ⏳ Upcoming |
+| Validation & Global Exception Handling | ⏳ Upcoming |
+| Spring Data JPA | ⏳ Upcoming |
+| Final Backend Project | ⏳ Upcoming |
+
+---
+
+# 🎯 Remaining Days
+
+## Day 25 — REST APIs
+
+- Controllers
+- HTTP methods
+- `GET`
+- `POST`
+- `PUT`
+- `DELETE`
+- DTOs
+- HTTP status codes
+- Employee REST API
+
+## Day 26 — Layered Architecture & Validation
+
+- Controller layer
+- Service layer
+- Repository layer
+- DTOs
+- Bean Validation
+- Global exception handling
+- Refactoring the Employee API
+
+## Day 27 — JPA & Database Integration
+
+- Entities
+- Spring Data JPA
+- Repositories
+- Relationships
+- Employee / Department persistence
+
+## Day 28 — Final Project Planning
+
+Choose and design the final backend project:
+
+- Fleet Management API
+- Employee Management API
+- Inventory API
+
+Define:
+
+- Entities
+- Endpoints
+- DTOs
+- Validation rules
+- Database schema
+
+## Day 29 — Final Project Development
+
+Build the backend application with:
+
+- REST APIs
+- Layered architecture
+- Database integration
+- Validation
+- Exception handling
+- Meaningful Git commits
+
+## Day 30 — Final Assessment
+
+- Java coding assessment
+- HackerRank / DSA assessment
+- Spring Boot code review
+- Final project demonstration
+
+---
+
+# 🏆 Final Evaluation
+
+The bootcamp evaluation is structured around the following score distribution:
 
 | Skill | Weight |
 |---|---:|
@@ -640,75 +462,109 @@ JAVA-30-day-BootCamp/
 | Final Project | 5% |
 | **Total** | **100%** |
 
+### Certification Levels
+
+| Score | Level |
+|---:|---|
+| 90–100 | Excellent Java Developer |
+| 80–89 | Strong Java Developer |
+| 70–79 | Java Developer |
+| 60–69 | Needs Improvement |
+| Below 60 | Repeat Critical Modules |
+
 ---
 
-# 🎯 Final Learning Objectives
+# 🎯 Final Goals
 
-By the end of this bootcamp, I aim to:
+By the end of this 30-day bootcamp, the goal is to be able to:
 
-- ✅ Write clean and optimized Java code
+- ✅ Write clean and structured Java code
+- ✅ Apply OOP principles effectively
+- ✅ Solve common programming and DSA problems
 - ✅ Analyze time and space complexity
-- ✅ Solve DSA problems efficiently
-- ✅ Apply appropriate problem-solving patterns
-- ✅ Build object-oriented applications
-- ✅ Use Collections and Streams effectively
-- ✅ Handle exceptions and concurrency
-- ✅ Work with JDBC and SQL
-- ✅ Develop REST APIs using Spring Boot
-- ✅ Follow layered architecture and backend best practices
+- ✅ Use Collections, Generics, Lambdas and Streams
+- ✅ Work with files and concurrent programs
+- ✅ Connect Java applications to SQL databases using JDBC
+- ✅ Understand Maven-based Java projects
+- ✅ Build Spring Boot applications
+- ✅ Develop REST APIs
+- ✅ Apply layered backend architecture
+- ✅ Use validation and exception handling
+- ✅ Persist data using Spring Data JPA
 - ✅ Build and document a complete backend project
-
----
-
-# 💡 Learning Philosophy
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=1000&color=00C853&center=true&vCenter=true&width=700&lines=Consistency+beats+intensity.;Small+progress+every+day.;Learn+%E2%86%92+Code+%E2%86%92+Solve+%E2%86%92+Improve.;30+days.+One+goal.+Become+a+better+developer." alt="Learning philosophy animation" />
-</p>
-
-> **The objective is not simply to complete 30 days.**
->
-> The objective is to become a developer who can **understand problems, write clean solutions, analyze algorithms, and build real backend applications.**
 
 ---
 
 # 👨‍💻 About Me
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=18&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=700&lines=B.Tech+CSE+(AI+%26+ML);Java+%26+Backend+Development+Enthusiast;Preparing+for+Java+Developer+%2F+Software+Engineer+Roles;Core+Java+%E2%86%92+Spring+Boot+%E2%86%92+REST+APIs" alt="About me animation" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=18&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=750&lines=B.Tech+CSE+(AI+%26+ML);Java+%26+Backend+Development+Enthusiast;Core+Java+%E2%86%92+Spring+Boot+%E2%86%92+REST+APIs;Building+practical+backend+skills+through+consistent+practice" alt="About me animation">
 </p>
 
-### 👤 Vamsi Krishna Pedapapa
+### Vamsi Krishna Pedapapa
 
 - 🎓 B.Tech CSE (AI & ML)
 - 💻 Java & Backend Development Enthusiast
-- 🚀 Preparing for **Java Developer / Software Engineer Roles**
-- 🌱 Currently learning **Core Java → Spring Boot → REST APIs**
+- 🚀 Preparing for Java Developer / Software Engineer roles
+- 🌱 Current path: **Core Java → JDBC → Maven → Spring Boot → REST APIs**
 
 <p align="center">
   <a href="https://github.com/VamsiKrishna-9443">
-    <img src="https://img.shields.io/badge/GitHub-VamsiKrishna--9443-181717?style=for-the-badge&logo=github" />
+    <img src="https://img.shields.io/badge/GitHub-VamsiKrishna--9443-181717?style=for-the-badge&logo=github" alt="GitHub profile">
   </a>
 </p>
 
 ---
 
-# ⭐ Support the Journey
+## 🔥 Consistency Tracker
 
-If you find this repository useful or want to follow the journey:
+```text
+Day 01  ✅
+Day 02  ✅
+Day 03  ✅
+Day 04  ✅
+Day 05  ✅
+Day 06  ✅
+Day 07  ✅
+Day 08  ✅
+Day 09  ✅
+Day 10  ✅
+Day 11  ✅
+Day 12  ✅
+Day 13  ✅
+Day 14  ✅
+Day 15  ✅
+Day 16  ✅
+Day 17  ✅
+Day 18  ✅
+Day 19  ✅
+Day 20  ✅
+Day 21  ✅
+Day 22  ✅
+Day 23  ✅
+Day 24  ✅
+Day 25  ⏳
+Day 26  ⏳
+Day 27  ⏳
+Day 28  ⏳
+Day 29  ⏳
+Day 30  ⏳
+```
 
-<p align="center">
-  <b>⭐ Star the repository</b> &nbsp; • &nbsp;
-  <b>👀 Follow the progress</b> &nbsp; • &nbsp;
-  <b>🚀 Keep learning</b>
-</p>
+> **24 / 30 completed — 80% of the journey is done.**
+>
+> The final six days are focused on turning the Java foundation into a practical Spring Boot backend application.
 
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=140&section=footer&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=140&section=footer&animation=fadeIn" alt="Footer">
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=18&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=%F0%9F%9A%80+DAY+12+%2F+30+COMPLETED;Learn+%E2%80%A2+Code+%E2%80%A2+Solve+%E2%80%A2+Optimize+%E2%80%A2+Build;Next+Stop%3A+Day+13+%F0%9F%94%A5" alt="Footer animation" />
+  <b>🚀 Learn • Code • Solve • Optimize • Build</b>
+</p>
+
+<p align="center">
+  <b>24 / 30 Days Complete • Next Stop: REST APIs 🔥</b>
 </p>
