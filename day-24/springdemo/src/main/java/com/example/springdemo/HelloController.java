@@ -18,12 +18,19 @@ public class HelloController {
     }
 
     @GetMapping("/welcome")
-    public String welcome() {
+    public String welcome()
+    {
         return "Welcome to Spring Boot";
     }
 
     @GetMapping("/car")
     public String car() {
         return car.drive();
+    }
+
+    @GetMapping("/bike")
+    public String bike()
+    {
+        return "<h1>Bike Endpoint</h1>";
     }
 }

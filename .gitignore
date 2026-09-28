@@ -1,30 +1,131 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-.kotlin
+# =========================================================
+# JAVA 30-DAY BOOTCAMP - ROOT .gitignore
+# Java + Spring Boot + Maven + IntelliJ IDEA
+# Windows + macOS + VS Code
+# =========================================================
 
-### Eclipse ###
-.apt_generated
+
+# =========================================================
+# Maven
+# =========================================================
+
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+# Maven generated files
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+
+# =========================================================
+# Java
+# =========================================================
+
+*.class
+*.log
+*.jar
+*.war
+*.ear
+
+
+# =========================================================
+# IntelliJ IDEA
+# =========================================================
+
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+
+# =========================================================
+# Eclipse / STS
+# =========================================================
+
 .classpath
 .factorypath
 .project
-.settings
+.settings/
 .springBeans
 .sts4-cache
+.apt_generated/
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
-### NetBeans ###
+
+# =========================================================
+# NetBeans
+# =========================================================
+
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
 
-### VS Code ###
+
+# =========================================================
+# VS Code
+# =========================================================
+
 .vscode/
 
-### Mac OS ###
+
+# =========================================================
+# Gradle
+# =========================================================
+
+.gradle/
+build/
+
+
+# =========================================================
+# Environment / Secrets
+# =========================================================
+
+.env
+.env.*
+*.env
+
+application-local.properties
+application-local.yml
+application-local.yaml
+
+# Secret / credential files
+*.pem
+*.key
+credentials.json
+secrets.json
+
+
+# =========================================================
+# Operating System Files
+# =========================================================
+
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+
+# =========================================================
+# Temporary / Backup Files
+# =========================================================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
